@@ -1,0 +1,476 @@
+{
+  "name": "Top World Cup Collection",
+  "contactLine": "If you have any questions, please do not hesitate to contact us.",
+  "alsoInThisIssue": "Also in this issue",
+  "nav": {
+    "collection": "Collection",
+    "contact": "Contact"
+  },
+  "coverPieceId": "petrone",
+  "supportingPieceIds": ["fifa-1904", "kocsis"],
+  "copy": {
+    "highlightsKicker": "The highlights of the collection",
+    "byline": "by Thomas Käppeli",
+    "introduction": [
+      "Since childhood, I've been collecting sports memorabilia related to football. Over the last 50 years, this collection has grown with a lot of passion, many wonderful encounters, countless air miles, and, of course, a considerable amount of money.",
+      "Always with the intention of opening an exhibition in 2030 for the 100th anniversary of the World Cup.",
+      "Unfortunately, in recent years I've had serious health problems with my heart, so I lack the strength to set up my planned and much-desired exhibition.",
+      "Therefore, it is with a heavy heart that I have now decided to sell my collection."
+    ],
+    "informationHeading": "Information about the collection",
+    "information": [
+      "The collection is only available for purchase as a whole. In total, this collection consists of approximately 500 exquisite pieces.",
+      "The collectibles from the period between 1924 and 1950 are almost exclusively secondhand, acquired from the families of the players of that era.",
+      "The unique items from Uruguay come from the collection of RONY ALMEIDA and were personally presented to me by his son, GABRIEL ALMEIDA, in Los Angeles, USA.",
+      "These collectibles were on loan from the Almeida family to the Football Museum in Montevideo until 2022.",
+      "The collectibles from 1934 and 1938 come from the family estate of GIAMPIERO COMBI (goalkeeper and captain of the 1934 World Cup champions, Kingdom of Italy).",
+      "Many rarities also originate from auction houses such as AGON Sportsworld Germany, eBay, Catawiki, etc.",
+      "The authenticity of the memorabilia can be verified at any time."
+    ],
+    "viewing": "Viewing the collection is possible at any time. I stand behind the authenticity and origin of the collection items to the best of my knowledge and belief."
+  },
+  "contacts": [
+    {
+      "name": "Thomas Paul Käppeli",
+      "address": ["Grundbachstrasse 29", "3665 Wattenwil", "Switzerland"],
+      "phone": "+41 (0)79 340 93 63",
+      "email": "tk@Top-World-Cup-Collection.ch"
+    },
+    {
+      "name": "Norbert Käser",
+      "address": ["Kaisereggstrasse 10", "3185 Schmitten", "Switzerland"],
+      "phone": "+41 (0)78 641 34 57",
+      "email": "nk@Top-World-Cup-Collection.ch"
+    }
+  ],
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "piece": "Piece",
+    "message": "Message",
+    "send": "Send",
+    "required": "Please complete name, email and message.",
+    "thanks": "Thank you. You can also write to us at"
+  },
+  "notFound": "This page is not in the collection.",
+  "issues": [
+    {
+      "slug": "1924",
+      "kind": "olympic",
+      "year": "1924",
+      "title": "Olympic Games 1924 Paris",
+      "host": "Paris",
+      "era": null,
+      "thumb": "thumb-1924.jpg",
+      "chips": ["#c5a46a", "#1d2a4a", "#f3eee4"],
+      "leadPieceId": null,
+      "sequence": ["thumb-1924.jpg"]
+    },
+    {
+      "slug": "1928",
+      "kind": "olympic",
+      "year": "1928",
+      "title": "Olympic Games 1928 Amsterdam",
+      "host": "Amsterdam",
+      "era": null,
+      "thumb": "thumb-1928.jpg",
+      "chips": ["#111111", "#e36f1e", "#f3eee4"],
+      "leadPieceId": null,
+      "sequence": ["thumb-1928.jpg"]
+    },
+    {
+      "slug": "1930",
+      "kind": "year",
+      "year": "1930",
+      "title": "World Cup 1930 Uruguay",
+      "host": "Uruguay",
+      "era": "1930",
+      "thumb": "thumb-1930.jpg",
+      "chips": ["#8a2a24", "#1f4f6b", "#c9a227"],
+      "leadPieceId": "petrone",
+      "sequence": [
+        "1930-02.jpg",
+        "1930-03.jpg",
+        "1930-04.jpg",
+        "1930-05.jpg",
+        "1930-06.jpg",
+        "1930-07.jpg",
+        "1930-08.jpg"
+      ]
+    },
+    {
+      "slug": "1934",
+      "kind": "year",
+      "year": "1934",
+      "title": "World Cup 1934 Italy",
+      "host": "Italy",
+      "era": null,
+      "thumb": "thumb-1934.jpg",
+      "chips": ["#1c6b3a", "#c8102e", "#f4f1e8"],
+      "leadPieceId": null,
+      "sequence": ["thumb-1934.jpg"]
+    },
+    {
+      "slug": "1938",
+      "kind": "year",
+      "year": "1938",
+      "title": "World Cup 1938 France",
+      "host": "France",
+      "era": null,
+      "thumb": "thumb-1938.jpg",
+      "chips": ["#0b1c3a", "#c8102e", "#f3eee4"],
+      "leadPieceId": null,
+      "sequence": ["thumb-1938.jpg"]
+    },
+    {
+      "slug": "1950",
+      "kind": "year",
+      "year": "1950",
+      "title": "World Cup 1950 Brasil",
+      "host": "Brasil",
+      "era": null,
+      "thumb": "thumb-1950.jpg",
+      "chips": ["#1f6b3a", "#d4a017", "#1d4e89"],
+      "leadPieceId": null,
+      "sequence": ["thumb-1950.jpg"]
+    },
+    {
+      "slug": "1954",
+      "kind": "year",
+      "year": "1954",
+      "title": "World Cup 1954 Switzerland",
+      "host": "Switzerland",
+      "era": "1954",
+      "thumb": "thumb-1954.jpg",
+      "chips": ["#e8b4b8", "#1a1214", "#c8102e"],
+      "leadPieceId": "kocsis",
+      "sequence": [
+        "1954-ticket.jpg",
+        "1954-medal-obverse.jpg",
+        "1954-04.jpg",
+        "1954-05.jpg",
+        "1954-06.jpg",
+        "1954-07.jpg",
+        "1954-08.jpg"
+      ]
+    },
+    {
+      "slug": "1958",
+      "kind": "year",
+      "year": "1958",
+      "title": "World Cup 1958 Sweden",
+      "host": "Sweden",
+      "era": null,
+      "thumb": "thumb-1958.jpg",
+      "chips": ["#f4d03f", "#1d4e89", "#111111"],
+      "leadPieceId": null,
+      "sequence": ["thumb-1958.jpg"]
+    },
+    {
+      "slug": "1962",
+      "kind": "year",
+      "year": "1962",
+      "title": "World Cup 1962 Chile",
+      "host": "Chile",
+      "era": null,
+      "thumb": "thumb-1962.jpg",
+      "chips": ["#1a6b6b", "#c8102e", "#e8f0f0"],
+      "leadPieceId": null,
+      "sequence": ["thumb-1962.jpg"]
+    },
+    {
+      "slug": "1966",
+      "kind": "year",
+      "year": "1966",
+      "title": "World Cup 1966 England",
+      "host": "England",
+      "era": null,
+      "thumb": "thumb-1966.jpg",
+      "chips": ["#c8102e", "#1d2a4a", "#f3eee4"],
+      "leadPieceId": null,
+      "sequence": ["thumb-1966.jpg"]
+    },
+    {
+      "slug": "1970",
+      "kind": "year",
+      "year": "1970",
+      "title": "World Cup 1970 Mexico",
+      "host": "Mexico",
+      "era": null,
+      "thumb": "thumb-1970.jpg",
+      "chips": ["#e85a8c", "#f4a261", "#2a2a2a"],
+      "leadPieceId": null,
+      "sequence": ["thumb-1970.jpg"]
+    },
+    {
+      "slug": "1974",
+      "kind": "year",
+      "year": "1974",
+      "title": "World Cup 1974 Germany",
+      "host": "Germany",
+      "era": null,
+      "thumb": "thumb-1974.jpg",
+      "chips": ["#111111", "#e36f1e", "#f3eee4"],
+      "leadPieceId": null,
+      "sequence": ["thumb-1974.jpg"]
+    },
+    {
+      "slug": "1978",
+      "kind": "year",
+      "year": "1978",
+      "title": "World Cup 1978 Argentina",
+      "host": "Argentina",
+      "era": null,
+      "thumb": "thumb-1978.jpg",
+      "chips": ["#75aadb", "#c9a227", "#f3eee4"],
+      "leadPieceId": null,
+      "sequence": ["thumb-1978.jpg"]
+    },
+    {
+      "slug": "1982",
+      "kind": "year",
+      "year": "1982",
+      "title": "World Cup 1982 Spain",
+      "host": "Spain",
+      "era": null,
+      "thumb": "thumb-1982.jpg",
+      "chips": ["#c8102e", "#f4d03f", "#1d4e89"],
+      "leadPieceId": null,
+      "sequence": ["thumb-1982.jpg"]
+    },
+    {
+      "slug": "1986",
+      "kind": "year",
+      "year": "1986",
+      "title": "World Cup 1986 Mexico",
+      "host": "Mexico",
+      "era": null,
+      "thumb": "thumb-1986.jpg",
+      "chips": ["#8b3a2a", "#d4a017", "#2a1a14"],
+      "leadPieceId": null,
+      "sequence": ["thumb-1986.jpg"]
+    },
+    {
+      "slug": "1990",
+      "kind": "year",
+      "year": "1990",
+      "title": "World Cup 1990 Italy",
+      "host": "Italy",
+      "era": null,
+      "thumb": "thumb-1990.jpg",
+      "chips": ["#1c6b3a", "#c8102e", "#f4f1e8"],
+      "leadPieceId": null,
+      "sequence": ["thumb-1990.jpg"]
+    },
+    {
+      "slug": "1994",
+      "kind": "year",
+      "year": "1994",
+      "title": "World Cup 1994 USA",
+      "host": "USA",
+      "era": null,
+      "thumb": "thumb-1994.jpg",
+      "chips": ["#1d4e89", "#c8102e", "#f4d03f"],
+      "leadPieceId": null,
+      "sequence": ["thumb-1994.jpg"]
+    },
+    {
+      "slug": "1998",
+      "kind": "year",
+      "year": "1998",
+      "title": "World Cup 1998 France",
+      "host": "France",
+      "era": null,
+      "thumb": "thumb-1998.jpg",
+      "chips": ["#1d4e89", "#c8102e", "#f3eee4"],
+      "leadPieceId": null,
+      "sequence": ["thumb-1998.jpg"]
+    },
+    {
+      "slug": "2002",
+      "kind": "year",
+      "year": "2002",
+      "title": "World Cup 2002 Korea / Japan",
+      "host": "Korea / Japan",
+      "era": null,
+      "thumb": "thumb-2002.jpg",
+      "chips": ["#111111", "#c8102e", "#f3eee4"],
+      "leadPieceId": null,
+      "sequence": ["thumb-2002.jpg"]
+    },
+    {
+      "slug": "2006",
+      "kind": "year",
+      "year": "2006",
+      "title": "World Cup 2006 Germany",
+      "host": "Germany",
+      "era": null,
+      "thumb": "thumb-2006.jpg",
+      "chips": ["#0b0b10", "#f3eee4", "#c9a227"],
+      "leadPieceId": null,
+      "sequence": ["thumb-2006.jpg"]
+    },
+    {
+      "slug": "2010",
+      "kind": "year",
+      "year": "2010",
+      "title": "World Cup 2010 South Africa",
+      "host": "South Africa",
+      "era": null,
+      "thumb": "thumb-2010.jpg",
+      "chips": ["#1a1a1a", "#c9a227", "#8b3a2a"],
+      "leadPieceId": null,
+      "sequence": ["thumb-2010.jpg"]
+    },
+    {
+      "slug": "2014",
+      "kind": "year",
+      "year": "2014",
+      "title": "World Cup 2014 Brasil",
+      "host": "Brasil",
+      "era": null,
+      "thumb": "thumb-2014.jpg",
+      "chips": ["#1f6b3a", "#d4a017", "#1d4e89"],
+      "leadPieceId": null,
+      "sequence": ["thumb-2014.jpg"]
+    },
+    {
+      "slug": "2018",
+      "kind": "year",
+      "year": "2018",
+      "title": "World Cup 2018 Russia",
+      "host": "Russia",
+      "era": null,
+      "thumb": "thumb-2018.jpg",
+      "chips": ["#8a2a24", "#c9a227", "#f3eee4"],
+      "leadPieceId": null,
+      "sequence": ["thumb-2018.jpg"]
+    },
+    {
+      "slug": "2022",
+      "kind": "year",
+      "year": "2022",
+      "title": "World Cup 2022 Qatar",
+      "host": "Qatar",
+      "era": null,
+      "thumb": "thumb-2022.jpg",
+      "chips": ["#6b1d2a", "#e6d3b3", "#1a1214"],
+      "leadPieceId": null,
+      "sequence": ["thumb-2022.jpg"]
+    },
+    {
+      "slug": "2026",
+      "kind": "year",
+      "year": "2026",
+      "title": "World Cup 2026 Canada / USA / Mexico",
+      "host": "Canada / USA / Mexico",
+      "era": null,
+      "thumb": null,
+      "chips": ["#1d4e89", "#c8102e", "#1c6b3a"],
+      "leadPieceId": null,
+      "sequence": []
+    },
+    {
+      "slug": "autographs",
+      "kind": "special",
+      "year": "",
+      "title": "Autographs / pictures",
+      "host": "",
+      "era": null,
+      "thumb": "thumb-autographs.jpg",
+      "chips": ["#1a1214", "#f3eee4", "#8a2a24"],
+      "leadPieceId": null,
+      "sequence": ["thumb-autographs.jpg"]
+    },
+    {
+      "slug": "information-boards",
+      "kind": "special",
+      "year": "",
+      "title": "Information boards",
+      "host": "",
+      "era": null,
+      "thumb": "thumb-information-boards.jpg",
+      "chips": ["#c5a46a", "#1a1214", "#f3eee4"],
+      "leadPieceId": null,
+      "sequence": ["thumb-information-boards.jpg"]
+    },
+    {
+      "slug": "fifa",
+      "kind": "special",
+      "year": "",
+      "title": "FIFA official items",
+      "host": "",
+      "era": "fifa",
+      "thumb": "thumb-fifa.jpg",
+      "chips": ["#0e1624", "#c4a46a", "#efe6d4"],
+      "leadPieceId": "fifa-1904",
+      "sequence": [
+        "fifa-02.jpg",
+        "fifa-03.jpg",
+        "fifa-04.jpg",
+        "fifa-05.jpg",
+        "fifa-06.jpg",
+        "fifa-07.jpg",
+        "fifa-08.jpg"
+      ]
+    },
+    {
+      "slug": "sports-equipment",
+      "kind": "special",
+      "year": "",
+      "title": "Sports equipment",
+      "host": "",
+      "era": null,
+      "thumb": "thumb-sports-equipment.jpg",
+      "chips": ["#5a3a24", "#3a6b2a", "#f3eee4"],
+      "leadPieceId": null,
+      "sequence": ["thumb-sports-equipment.jpg"]
+    },
+    {
+      "slug": "divers",
+      "kind": "special",
+      "year": "",
+      "title": "Divers",
+      "host": "",
+      "era": null,
+      "thumb": "thumb-divers.jpg",
+      "chips": ["#14110e", "#f3eee4", "#9a2b24"],
+      "leadPieceId": null,
+      "sequence": ["thumb-divers.jpg"]
+    }
+  ],
+  "pieces": [
+    {
+      "id": "petrone",
+      "slug": "petrone",
+      "issue": "1930",
+      "image": "petrone.jpg",
+      "title": "Jules Rimet Cup of Pedro Petrone",
+      "dates": "11 May 1905 - 13 December 1964",
+      "notes": [
+        "Pedro Petrone played as a striker for the Uruguayan national team and was also part of the 1924/28 Olympic team (29 international appearances with 24 goals).",
+        "World Cup trophy for the first World Cup winners in Uruguay, 1930, donated by the Uruguayan Football Association (A.U. de F.)."
+      ]
+    },
+    {
+      "id": "fifa-1904",
+      "slug": "fifa-1904",
+      "issue": "fifa",
+      "image": "fifa-1904.jpg",
+      "title": "Goldpin FIFA 1904",
+      "dates": "",
+      "notes": []
+    },
+    {
+      "id": "kocsis",
+      "slug": "kocsis",
+      "issue": "1954",
+      "image": "kocsis.jpg",
+      "title": "Top Scorer Medal SANDOR KOCSIS",
+      "dates": "21 September 1929 - 22 July 1979",
+      "notes": [
+        "The striker for the Hungarian national team scored 11 goals and his team finished as runner-up in the World Cup behind Germany."
+      ]
+    }
+  ]
+}
