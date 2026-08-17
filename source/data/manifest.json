@@ -1,0 +1,2918 @@
+[
+  {
+    "localPath": "source/assets/home/pfeil_abw.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/pfeil_abw.jpg",
+    "checksum": "515afbf2a0afd01c1c7712e8b4961992a1711cbc981cbc4c9fd1efecfd86f1d5",
+    "sourcePage": "index.html"
+  },
+  {
+    "localPath": "source/assets/home/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "index.html"
+  },
+  {
+    "localPath": "source/assets/1924-paris/img_3096_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3096_1536x2048.jpg",
+    "checksum": "b5d8cf94f22cb7f6b4173a1c8d717c21749d8e26f1e5127bf36d02f4954abc63",
+    "sourcePage": "1924.html"
+  },
+  {
+    "localPath": "source/assets/1924-paris/img_3097_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3097_1536x2048.jpg",
+    "checksum": "934a4a3c69b601f8401c3a702ba9111a3af65635bc81251fa55d369d662c78a8",
+    "sourcePage": "1924.html"
+  },
+  {
+    "localPath": "source/assets/1924-paris/img_3098_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3098_1536x2048.jpg",
+    "checksum": "120f25d3436916d180473ed8783f09fff98234b5d8b681a7407f2ea987ff4870",
+    "sourcePage": "1924.html"
+  },
+  {
+    "localPath": "source/assets/1924-paris/img_3099_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3099_1536x2048.jpg",
+    "checksum": "bb756642fda6de0e35633aa248ee7dc03882befb955df013ddb406a377e8eca2",
+    "sourcePage": "1924.html"
+  },
+  {
+    "localPath": "source/assets/1924-paris/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "1924.html"
+  },
+  {
+    "localPath": "source/assets/1924-paris/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "1924.html"
+  },
+  {
+    "localPath": "source/assets/1924-paris/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "1924.html"
+  },
+  {
+    "localPath": "source/assets/1928-amsterdam/img_3102_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3102_1536x2048.jpg",
+    "checksum": "64fd488f0916d10d38db313402547258b9494dd900ada3a54002203912eed707",
+    "sourcePage": "1928.html"
+  },
+  {
+    "localPath": "source/assets/1928-amsterdam/img_3104_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3104_1536x2048.jpg",
+    "checksum": "65f49269aa889141883d9b07eadfa4be8dbdc3789251f1f9fb20e8fdc44db3ac",
+    "sourcePage": "1928.html"
+  },
+  {
+    "localPath": "source/assets/1928-amsterdam/img_3101_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3101_1536x2048.jpg",
+    "checksum": "b5c17034ea6f3f3ce725b1a99be62b3f9d29e2473e874159e6cc39a6862c777c",
+    "sourcePage": "1928.html"
+  },
+  {
+    "localPath": "source/assets/1928-amsterdam/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "1928.html"
+  },
+  {
+    "localPath": "source/assets/1928-amsterdam/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "1928.html"
+  },
+  {
+    "localPath": "source/assets/1928-amsterdam/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "1928.html"
+  },
+  {
+    "localPath": "source/assets/1930-uruguay/img_3106_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3106_1536x2048.jpg",
+    "checksum": "455cdaa865e81e729d8fc9d38bf25ce5db2113446514b9de1f3aae54467625be",
+    "sourcePage": "1930.html"
+  },
+  {
+    "localPath": "source/assets/1930-uruguay/img_3107_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3107_1536x2048.jpg",
+    "checksum": "d724ab5d8b422c5051232b828100be6ea8135022fe3238129d08d0ccac0ed236",
+    "sourcePage": "1930.html"
+  },
+  {
+    "localPath": "source/assets/1930-uruguay/img_3109_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3109_1536x2048.jpg",
+    "checksum": "58e67b1bf5fa66942f8988e4139f424be7c44da54f3d4166bb58f57810a2f118",
+    "sourcePage": "1930.html"
+  },
+  {
+    "localPath": "source/assets/1930-uruguay/img_3108_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3108_1536x2048.jpg",
+    "checksum": "3fec2a656474b1c3687346f3a6da9d3c57939056e8176352d5c9eda71b6a7b4c",
+    "sourcePage": "1930.html"
+  },
+  {
+    "localPath": "source/assets/1930-uruguay/img_3111_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3111_1536x2048.jpg",
+    "checksum": "a8a26445d23c2ea45e007189a4f3fa26e3861a0fb2363fa400b80cda32a83d13",
+    "sourcePage": "1930.html"
+  },
+  {
+    "localPath": "source/assets/1930-uruguay/img_3119_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3119_2048x1536.jpg",
+    "checksum": "b59f68b1112974f3e44ad7046340cf6653e41a5fbbee3bff1ceead841fbc074c",
+    "sourcePage": "1930.html"
+  },
+  {
+    "localPath": "source/assets/1930-uruguay/img_3112_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3112_1536x2048.jpg",
+    "checksum": "39d75cf9d254ec8b45e693e2223ca6dfff0b13b387c217d7c21f23b42f332bf7",
+    "sourcePage": "1930.html"
+  },
+  {
+    "localPath": "source/assets/1930-uruguay/img_3113_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3113_1536x2048.jpg",
+    "checksum": "eaae474b29eed0c2f99b450a4e12cd87f80074c230a82a2265bdabf8e87e0f42",
+    "sourcePage": "1930.html"
+  },
+  {
+    "localPath": "source/assets/1930-uruguay/img_3114_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3114_1536x2048.jpg",
+    "checksum": "4b03b5f63f6c5058e176a59cc5ad04258c91db58f7418160e3cc675cc3605fea",
+    "sourcePage": "1930.html"
+  },
+  {
+    "localPath": "source/assets/1930-uruguay/img_3115_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3115_1536x2048.jpg",
+    "checksum": "2e4edd7b5e4be83bd4b0952723fb181bef76c2c241f060a7cce5847f42c7ed50",
+    "sourcePage": "1930.html"
+  },
+  {
+    "localPath": "source/assets/1930-uruguay/img_3117_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3117_1536x2048.jpg",
+    "checksum": "c21cfc45aa15f31c7e18c3733cdec5396145ffa58adcfb37d12c4453fdde06eb",
+    "sourcePage": "1930.html"
+  },
+  {
+    "localPath": "source/assets/1930-uruguay/img_3118_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3118_1536x2048.jpg",
+    "checksum": "7439050974c131dcf3cfb1cb8c9500645c53de2527158a8ef13820b0271a7070",
+    "sourcePage": "1930.html"
+  },
+  {
+    "localPath": "source/assets/1930-uruguay/img_3116_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3116_1536x2048.jpg",
+    "checksum": "193b317af22fa16fb7069d9b9997afff12af42f72c73780c0b24d235ddc92144",
+    "sourcePage": "1930.html"
+  },
+  {
+    "localPath": "source/assets/1930-uruguay/img_3121_1536x2048.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3121_1536x2048.jpeg",
+    "checksum": "9ddc4ca2feea7c36d66c2aca5224759fb9773165e4c7e0c24cc1c5bee8a3bad6",
+    "sourcePage": "1930.html"
+  },
+  {
+    "localPath": "source/assets/1930-uruguay/img_3122_1536x2048.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3122_1536x2048.jpeg",
+    "checksum": "097a7d184dd728cbed6903dbbf857c91910906b10340ab18168ab2dc7988305a",
+    "sourcePage": "1930.html"
+  },
+  {
+    "localPath": "source/assets/1930-uruguay/img_3214_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3214_2048x1536.jpg",
+    "checksum": "3d4e750373177f395d7ffae60dfb3e849a1d56a1a070e2aebee2da16596af30e",
+    "sourcePage": "1930.html"
+  },
+  {
+    "localPath": "source/assets/1930-uruguay/img_3216_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3216_2048x1536.jpg",
+    "checksum": "92928eb3f231480d7184fdae70eb1bce7cdc3ec811ec1ae4b2f062e22deabc2d",
+    "sourcePage": "1930.html"
+  },
+  {
+    "localPath": "source/assets/1930-uruguay/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "1930.html"
+  },
+  {
+    "localPath": "source/assets/1930-uruguay/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "1930.html"
+  },
+  {
+    "localPath": "source/assets/1930-uruguay/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "1930.html"
+  },
+  {
+    "localPath": "source/assets/1934-italy/img_3115a.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3115a.jpg",
+    "checksum": "46239b319d2dcc090ef70b25f25023ffc3e5b82e7c4ed729fc90610d3085c64b",
+    "sourcePage": "1934.html"
+  },
+  {
+    "localPath": "source/assets/1934-italy/img_3110a.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3110a.jpg",
+    "checksum": "28497eee00412fdc2c939acb7a70fdd53f3146cc1e3a7bb08f75596b599c5ba8",
+    "sourcePage": "1934.html"
+  },
+  {
+    "localPath": "source/assets/1934-italy/img_3111a.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3111a.jpg",
+    "checksum": "27d501a6f2b9d7b438c2d65d0a53db437366d5007075c8f8d9193a4f883eea2c",
+    "sourcePage": "1934.html"
+  },
+  {
+    "localPath": "source/assets/1934-italy/img_3112a.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3112a.jpg",
+    "checksum": "5d502c99a31ba033649ff6c34644f6c434639b5267803d4e857e985f0d144a4a",
+    "sourcePage": "1934.html"
+  },
+  {
+    "localPath": "source/assets/1934-italy/img_3134_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3134_1536x2048.jpg",
+    "checksum": "a66666f50d4861fdb6d19804e9af6e06919432e73b4d061e4636812772b7a6c7",
+    "sourcePage": "1934.html"
+  },
+  {
+    "localPath": "source/assets/1934-italy/img_3118a.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3118a.jpg",
+    "checksum": "588ec42843faf1b36d90418128c009888d5011005363d321f2df6b45d13e9cac",
+    "sourcePage": "1934.html"
+  },
+  {
+    "localPath": "source/assets/1934-italy/img_3136_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3136_1536x2048.jpg",
+    "checksum": "7aa73ed9f89002d7eb8bd42708ca20f07998133f1af0de6509ab1e9f6ea41572",
+    "sourcePage": "1934.html"
+  },
+  {
+    "localPath": "source/assets/1934-italy/img_3137_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3137_1536x2048.jpg",
+    "checksum": "8051c034654e56cd1d3a2e3b192f018030dd00be5a7de837a6dd9d168d0ad1c8",
+    "sourcePage": "1934.html"
+  },
+  {
+    "localPath": "source/assets/1934-italy/img_3114a.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3114a.jpg",
+    "checksum": "e5f18bb1a2195b880dd12937707c484d88b90367024bb0c92f237643ed865969",
+    "sourcePage": "1934.html"
+  },
+  {
+    "localPath": "source/assets/1934-italy/img_3139_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3139_1536x2048.jpg",
+    "checksum": "27e12045a26cb3b5d2b61ded19d50c4d66a25ea1155e3da23348c9cb4188ea6f",
+    "sourcePage": "1934.html"
+  },
+  {
+    "localPath": "source/assets/1934-italy/img_3140_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3140_1536x2048.jpg",
+    "checksum": "18a34fb8bccf20caa0c2ac74461f6cf199b227e1a7760c22e01fb35e87573286",
+    "sourcePage": "1934.html"
+  },
+  {
+    "localPath": "source/assets/1934-italy/img_3141_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3141_2048x1536.jpg",
+    "checksum": "6dd2c87cd931aa09cd5a29b70016eb0167e4a092211678b1fea6c7d8d5d580ef",
+    "sourcePage": "1934.html"
+  },
+  {
+    "localPath": "source/assets/1934-italy/img_3142_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3142_2048x1536.jpg",
+    "checksum": "41af74ee35ab371f914a14a04119f23744f977f4ba17ed976a7b25d2300651c4",
+    "sourcePage": "1934.html"
+  },
+  {
+    "localPath": "source/assets/1934-italy/img_3117a.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3117a.jpg",
+    "checksum": "54d6404172dc77cc27d8bfb6b06f2402b69616ca9a0f1f1084b7b06237ceb438",
+    "sourcePage": "1934.html"
+  },
+  {
+    "localPath": "source/assets/1934-italy/img_3116a.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3116a.jpg",
+    "checksum": "1b7cf2d2e19ca17c68f6234578b82d8f1d8bb1a45cedcd61cbf73c297c4b08a6",
+    "sourcePage": "1934.html"
+  },
+  {
+    "localPath": "source/assets/1934-italy/img_3138_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3138_2048x1536.jpg",
+    "checksum": "783cdd66708d16b9e9b06af826975c48611d17bb2838d26b2a9f619bfa3d8ec4",
+    "sourcePage": "1934.html"
+  },
+  {
+    "localPath": "source/assets/1934-italy/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "1934.html"
+  },
+  {
+    "localPath": "source/assets/1934-italy/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "1934.html"
+  },
+  {
+    "localPath": "source/assets/1934-italy/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "1934.html"
+  },
+  {
+    "localPath": "source/assets/1938-france/img_3999.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3999.jpg",
+    "checksum": "d90c67532c800984c936330617a7576b450410d3f0ce56dc2de0652b4755324b",
+    "sourcePage": "1938.html"
+  },
+  {
+    "localPath": "source/assets/1938-france/img_3144_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3144_1536x2048.jpg",
+    "checksum": "b48f45cb80f5bcd8500b9cb47eca861be36ec025eb96233bb40e2bd16bd4db4c",
+    "sourcePage": "1938.html"
+  },
+  {
+    "localPath": "source/assets/1938-france/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "1938.html"
+  },
+  {
+    "localPath": "source/assets/1938-france/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "1938.html"
+  },
+  {
+    "localPath": "source/assets/1938-france/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "1938.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/img_3114a1.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3114a1.jpg",
+    "checksum": "7fbb223b637b55b1b7f8d8744da548d451ec132108d58d2d23120653e54b57f0",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/img_3143a.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3143a.jpg",
+    "checksum": "5088d8a45ce8c86278d2545420c197f27f311246c4b0b938ea3d5f6ac10a7fac",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/img_3146_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3146_1536x2048.jpg",
+    "checksum": "569e2224d0ea3de532d8e9af9ab5c98eab3af5f2550289c7e27d1d8a89290f4b",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/img_3147_2048x2007.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3147_2048x2007.jpeg",
+    "checksum": "3eb1c2c964a9034d445d4cc6c5aab0ddfcaaee978457c936ab4c2ff77f7710a6",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/img_3148_1536x2048.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3148_1536x2048.jpeg",
+    "checksum": "2f9eadacab4c6018e3bdb2052d50eaab219600c2daf1bfccf381b1a894653121",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/img_3150_1536x2048.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3150_1536x2048.jpeg",
+    "checksum": "2ee5f36df2e259680a5abf6a38b4d2f9c998666bfc5b35cd82fda40d2f985cb7",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/img_3149_1536x2048.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3149_1536x2048.jpeg",
+    "checksum": "5a6b59eb59a8955d00e521d61ed39c435068027db3aee8c0a7096fb82c550ed0",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/img_3180_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3180_1536x2048.jpg",
+    "checksum": "8c034697b81f4b9b34fe5432d15a5dd6c20a2d2079d8fedfa9c013ede9662abd",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/img_3151_1536x2048.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3151_1536x2048.jpeg",
+    "checksum": "4d56f094c46e16cea0153ea107acc62956e58654e34f901b3966e6c0c6d00d3a",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/img_3115a1.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3115a1.jpg",
+    "checksum": "2f2598a1da8d233ed66c6898145ab52c29ba9ad79b2ff58939af50ac0dab64b6",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/img_3171_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3171_2048x1536.jpg",
+    "checksum": "2abf180900647a2ec5ddf14c68dafb7fa4e3a1366cb729372c769cee396ef4dd",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/img_3181_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3181_1536x2048.jpg",
+    "checksum": "3df14f72721901e3f1c3dcadd1b76e7c5e40e177114ff0f2f6a70e200925ff9e",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/img_3182_1536x2048.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3182_1536x2048.jpeg",
+    "checksum": "4e2d28067156ef0ba813473194ef2716f9906feaac407bcfd80e6907624a7121",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/img_3184_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3184_2048x1536.jpg",
+    "checksum": "f897bbb7fe0b2503019b754b290ae44b8e072c15a109c324327a406826faef5b",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/img_3185_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3185_1536x2048.jpg",
+    "checksum": "63cdcd5a76b566e456e2df018450d5c014a0da510dee6522cb0fb217dde465dc",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/img_3186_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3186_1536x2048.jpg",
+    "checksum": "4c8210eb5b1d5967e7f030ff2db4e24d0e4b5f53d9172efb28666ac2457c7ceb",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/img_3187_1536x2048.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3187_1536x2048.jpeg",
+    "checksum": "1549e1e1da508bcbcca96e8b8a110d023478eaa447e1065ec6daab8e38165dda",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/img_3188_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3188_1536x2048.jpg",
+    "checksum": "ea87471381d32799f54841a5214c6ab813837b091599605107138b2a5a77f93b",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/img_3189_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3189_1536x2048.jpg",
+    "checksum": "39682486a0b70c0cfb0f72d21ac9893bc70ad920549bba2ad916847c570600b6",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/img_3190_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3190_1536x2048.jpg",
+    "checksum": "dff6a9fa9fc18576cbc2b04f26d5bec2b99a23df4dd4578f9810d5fca46542a7",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/img_3191_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3191_1536x2048.jpg",
+    "checksum": "b19a25178ddc3274cdb4e17d608d7aec92b08133ed1ccbd81633e3d6c8af4f5e",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/img_3192_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3192_1536x2048.jpg",
+    "checksum": "e9097bb0acaeb36a8e91b69656ca210428235ab08804dd9b2740d0418eabec6b",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/img_3193_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3193_1536x2048.jpg",
+    "checksum": "74d48ecd66476e1be0096eb182b3c8328fc14d37bd848b6e8b27e4719b37ce46",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/img_3194_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3194_1536x2048.jpg",
+    "checksum": "75b1c046ef901e0ed0f53112853508fd0c26cd9f09bca5056adac71cd82806ed",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/img_3195_1536x2048.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3195_1536x2048.jpeg",
+    "checksum": "b7d83d5ac0a53dbe4b794d9bee22b43503ab890f34e5ab2e9f486671a852a9bd",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/img_3397_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3397_1536x2048.jpg",
+    "checksum": "9dc872439208c66aecdb6e662cf95043222c4e1825a24564c228ddf9c65ad7ef",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/img_3398_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3398_2048x1536.jpg",
+    "checksum": "f93d3ae62a9e4df41e9df21d9a274f4f6291693641c379858d19947da07b5464",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/img_3424_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3424_2048x1536.jpg",
+    "checksum": "2966230211e4488b73335e2b81bf7a2c74d45d17ab81399b57c126a46aacc45a",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1950-brasil/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "1950.html"
+  },
+  {
+    "localPath": "source/assets/1954-switzerland/img_3170_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3170_2048x1536.jpg",
+    "checksum": "f0c1512ed5f60bb5040441cf4f5686cf874e3d198b7ac2bd08f794febbcd46e7",
+    "sourcePage": "1954.html"
+  },
+  {
+    "localPath": "source/assets/1954-switzerland/img_3199_1536x2048.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3199_1536x2048.jpeg",
+    "checksum": "a65d8a5ec03b2149e038018a2a22b3b0e86b297f4f6417e8dd0d84112eec7253",
+    "sourcePage": "1954.html"
+  },
+  {
+    "localPath": "source/assets/1954-switzerland/img_3200_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3200_1536x2048.jpg",
+    "checksum": "603831a426a24459d6337b1aa29a66fbdf6311c3f059d1fc696eb639d8f94ea2",
+    "sourcePage": "1954.html"
+  },
+  {
+    "localPath": "source/assets/1954-switzerland/img_3201_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3201_1536x2048.jpg",
+    "checksum": "814ebfb7de7a2fa1caaa9bb061ffe73b75bcd3afb0b98d696eafb3e262b90f76",
+    "sourcePage": "1954.html"
+  },
+  {
+    "localPath": "source/assets/1954-switzerland/img_3202_1536x2048.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3202_1536x2048.jpeg",
+    "checksum": "254a710c0651cf5958df136077dcea1978e4e3ff2576a1525ce805f2f17f4c40",
+    "sourcePage": "1954.html"
+  },
+  {
+    "localPath": "source/assets/1954-switzerland/img_3204_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3204_1536x2048.jpg",
+    "checksum": "634902806333f48e5690a55a5e681d1604d521b72523fc5e4aa2adb7b1f828f2",
+    "sourcePage": "1954.html"
+  },
+  {
+    "localPath": "source/assets/1954-switzerland/img_3208_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3208_2048x1536.jpg",
+    "checksum": "e6514a40c241eb528c8d92ddc415c87038f513bdcc2cf829132282165971dab3",
+    "sourcePage": "1954.html"
+  },
+  {
+    "localPath": "source/assets/1954-switzerland/img_3205_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3205_1536x2048.jpg",
+    "checksum": "02cefd1aa52961be1fc55d90f33395be01f2c7d303e7f6fd0d638356411e6760",
+    "sourcePage": "1954.html"
+  },
+  {
+    "localPath": "source/assets/1954-switzerland/img_3206_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3206_1536x2048.jpg",
+    "checksum": "754bfa28befc29ae6b3c8a90cdf3be8dc305612d0eee58650996aa5a3156a94b",
+    "sourcePage": "1954.html"
+  },
+  {
+    "localPath": "source/assets/1954-switzerland/img_3207_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3207_2048x1536.jpg",
+    "checksum": "69f00501f496b65e095451d898536318bf536161c683362058c418da86631c92",
+    "sourcePage": "1954.html"
+  },
+  {
+    "localPath": "source/assets/1954-switzerland/img_3223_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3223_1536x2048.jpg",
+    "checksum": "2a266432963397fb40a1ffa5098a18b56340d2fc074e8d29b27f2379823771be",
+    "sourcePage": "1954.html"
+  },
+  {
+    "localPath": "source/assets/1954-switzerland/img_3209_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3209_1536x2048.jpg",
+    "checksum": "ae956fee6be8c444795cbb0ff6ad1f48bcf627ed89c238593881a2cbb7cdd16d",
+    "sourcePage": "1954.html"
+  },
+  {
+    "localPath": "source/assets/1954-switzerland/img_3210_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3210_2048x1536.jpg",
+    "checksum": "cf4966fe3528898f9b3e2a379d8c8c16bcb60dcf6197296411b1509c35c82a88",
+    "sourcePage": "1954.html"
+  },
+  {
+    "localPath": "source/assets/1954-switzerland/img_3211_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3211_2048x1536.jpg",
+    "checksum": "888c646f9b82c676a0e1b0a7d5ba3c8b999c6825bdbb187f2901185cbdeafc19",
+    "sourcePage": "1954.html"
+  },
+  {
+    "localPath": "source/assets/1954-switzerland/img_3428_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3428_2048x1536.jpg",
+    "checksum": "07d6b44628d07737751ca886a45138f89d29da68a9fcb077963e67548f52749f",
+    "sourcePage": "1954.html"
+  },
+  {
+    "localPath": "source/assets/1954-switzerland/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "1954.html"
+  },
+  {
+    "localPath": "source/assets/1954-switzerland/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "1954.html"
+  },
+  {
+    "localPath": "source/assets/1954-switzerland/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "1954.html"
+  },
+  {
+    "localPath": "source/assets/1958-sweden/img_3213_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3213_2048x1536.jpg",
+    "checksum": "2d1022b7455011aae87791256effbf6e42fefa306478a0a0cd4c3f3f2a41e2fa",
+    "sourcePage": "1958.html"
+  },
+  {
+    "localPath": "source/assets/1958-sweden/img_3228_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3228_1536x2048.jpg",
+    "checksum": "750a82d5b0eba1e5470353a9efd570965346855aabba9a15fe314800d10f674e",
+    "sourcePage": "1958.html"
+  },
+  {
+    "localPath": "source/assets/1958-sweden/img_3212_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3212_1536x2048.jpg",
+    "checksum": "0f68434e0ffc8d49d4dd60e7e2699da4ea858f3fc94627852c281d69c8aa9db1",
+    "sourcePage": "1958.html"
+  },
+  {
+    "localPath": "source/assets/1958-sweden/img_3227_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3227_1536x2048.jpg",
+    "checksum": "b19336076e353f916684d77ef6e566c7d15a5f9abd0d890690de41f3f6301485",
+    "sourcePage": "1958.html"
+  },
+  {
+    "localPath": "source/assets/1958-sweden/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "1958.html"
+  },
+  {
+    "localPath": "source/assets/1958-sweden/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "1958.html"
+  },
+  {
+    "localPath": "source/assets/1958-sweden/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "1958.html"
+  },
+  {
+    "localPath": "source/assets/1962-chile/img_3230_1765x2048.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3230_1765x2048.jpeg",
+    "checksum": "97df72f6fc81fd59820607f08c6c4cad07ba56c85e25b9a459ea057e7c831dbc",
+    "sourcePage": "1962.html"
+  },
+  {
+    "localPath": "source/assets/1962-chile/img_3231_2048x2004.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3231_2048x2004.jpeg",
+    "checksum": "c421a204d6c8116817fbc8f87c8a6ab00aa581fd1ce933046335028a1e685124",
+    "sourcePage": "1962.html"
+  },
+  {
+    "localPath": "source/assets/1962-chile/img_3234.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3234.jpeg",
+    "checksum": "8232c084ce98857720b9985a9bc7a8aa47d4a2319c330480072b21f1b67795a2",
+    "sourcePage": "1962.html"
+  },
+  {
+    "localPath": "source/assets/1962-chile/img_3232_1536x2048.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3232_1536x2048.jpeg",
+    "checksum": "039a1c9a179749734684cc6a63521c9d6f71398793aa333e270180a274943af7",
+    "sourcePage": "1962.html"
+  },
+  {
+    "localPath": "source/assets/1962-chile/img_3233_2048x1354.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3233_2048x1354.jpeg",
+    "checksum": "58775bb3fbada87a8ca75bb05e605894624d383e2bfd8c007f378a8019a13a13",
+    "sourcePage": "1962.html"
+  },
+  {
+    "localPath": "source/assets/1962-chile/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "1962.html"
+  },
+  {
+    "localPath": "source/assets/1962-chile/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "1962.html"
+  },
+  {
+    "localPath": "source/assets/1962-chile/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "1962.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/img_3248_1371x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3248_1371x2048.jpg",
+    "checksum": "ba8c1ff4cd7c03f46eecc419425cd47e14a806f473ab3d88bd34758c234de84d",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/img_3247_1409x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3247_1409x2048.jpg",
+    "checksum": "4daccea2b91ff9ff06c99d161ab9cf4201f9ba5e88ba5e5e6a3fae89b15bc062",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/img_3236_1021x2048.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3236_1021x2048.jpeg",
+    "checksum": "97ff607aa62f170905873074236baa3b3fb3a9cb451a38768143bac7c0c4601f",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/img_3237_2048x1705.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3237_2048x1705.jpeg",
+    "checksum": "5eb82d3766aef955d46dcc37e1034d48158cc3a4f49289a1fb76109e678b3f1c",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/img_3238_1322x2048.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3238_1322x2048.jpeg",
+    "checksum": "a1118bf3f27a143e03d5bb847b33d6504432545922e4d3d5cee7680c63207163",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/img_3239_1952x2048.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3239_1952x2048.jpeg",
+    "checksum": "6a952b1db48ce6ca2070c32e29a8bdad968418bf52dccb3637a336eebb82583e",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/img_3241_1320x2048.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3241_1320x2048.jpeg",
+    "checksum": "404db0edd9d22c514b0bd679551f7b4047cbcb1b614c6f83f5a657f437c7295b",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/img_3242_2048x1457.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3242_2048x1457.jpeg",
+    "checksum": "2a93944b34d9d2dc49987cd03904ddef570743fd4f259db8c153fd549a390517",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/img_3243_2048x1151.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3243_2048x1151.jpeg",
+    "checksum": "be9fc3140e7804db7f6662f370dd8243709ca1ff92695e2d59e909bf5a976175",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/img_3244_2048x1890.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3244_2048x1890.jpeg",
+    "checksum": "8e9267d1a78486b3a2548c9af7dccebc313c5ef8b14c8b1d9283136c31c297db",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/img_3246_1712x2048.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3246_1712x2048.jpeg",
+    "checksum": "9e022b567ffbbc7bc4e65582579958e2c5e0f2e64382dbea9d41d15721c2bef6",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/img_3250_2048x1781.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3250_2048x1781.jpg",
+    "checksum": "5300f1c6e4ac5b6e45d4597418479bd0feef5a4f047801b32e1c3155e95a4607",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/img_3251_1677x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3251_1677x2048.jpg",
+    "checksum": "3f0b7bc44509db641d0fde1aa15ffe65c69b68857b0357db94595326486a66a1",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/img_3252_1564x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3252_1564x2048.jpg",
+    "checksum": "b83695408cbf9254999e96ccb4d0ee675ec2e4e0b6426b2a4318ad77561775fa",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/img_3253_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3253_1536x2048.jpg",
+    "checksum": "e0129a91939cee5a7316229bf9a6ca13056e0a862fc99959b0fe6136cdd53b51",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/img_3255_1370x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3255_1370x2048.jpg",
+    "checksum": "c1d2cbf51bfd844d2e6f8a713cd58e7ce04174f21c041f767158a9e930236aaa",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/img_3256_1665x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3256_1665x2048.jpg",
+    "checksum": "3305eaa1857ee455f8ab0e922b569e242065f7ccc1d3a2b349a3070e2166da34",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/img_3257_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3257_1536x2048.jpg",
+    "checksum": "7ff0d8f3eaa7036fc35e4684832c690dc8ebd6b872c2ff5da5d7c29a223c9855",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/img_3261_2025x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3261_2025x2048.jpg",
+    "checksum": "6822767e70013aaf9d1dc3d7f45c184c16141fbbc5e1251f2968101925e5fe32",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/img_3263_2048x1979.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3263_2048x1979.jpg",
+    "checksum": "5ffeeb89a92930e66c8dc8ac6e76d26616c26d901f2dc262115dd969acb9d710",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/img_3258_2048x1605.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3258_2048x1605.jpg",
+    "checksum": "b1ccaccfd35ea39894832cbdea83e5cbfd640cf8b98ede6e8c39013d1c6790bc",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/img_3259_2048x2013.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3259_2048x2013.jpg",
+    "checksum": "ccc08242fea42f6a3ba0c0fea30b7fe526895374222e929c5ec9bd5265835499",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/img_3260_2048x1961.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3260_2048x1961.jpg",
+    "checksum": "051ae6c86d06c2fdfb55221685a32d253284de5557d25341cd0a7ad25d7dbf61",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/img_3240_2048x2032.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3240_2048x2032.jpeg",
+    "checksum": "5dd4c9f7e2b183a587f9bc15cea5c1aea4f65e88af81d7c9f09ea00801c7baf3",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/img_3245_2048x1947.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3245_2048x1947.jpeg",
+    "checksum": "11a282f4c386f4aa6d0ffb3880af3ce2d48b94437708d2421c56a8ad51c09916",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/img_3264_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3264_2048x1536.jpg",
+    "checksum": "1b938028ab5b9e75c139808ec8cc3752964ab6d4b48c811e37994ceea1546a3e",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1966-england/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "1966.html"
+  },
+  {
+    "localPath": "source/assets/1970-mexico/img_3278.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3278.jpg",
+    "checksum": "80fb396ab94ed0c354a6657b1cc84a75707fcf62933f0df7f66efe1a36903ff5",
+    "sourcePage": "1970.html"
+  },
+  {
+    "localPath": "source/assets/1970-mexico/img_3279_2048x1964.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3279_2048x1964.jpg",
+    "checksum": "bfa4b12b2a9f7c7a120542b98377d33e85928e89228b0e2b0dfa53642dced217",
+    "sourcePage": "1970.html"
+  },
+  {
+    "localPath": "source/assets/1970-mexico/img_3282_1255x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3282_1255x2048.jpg",
+    "checksum": "04686d92c2b64884a9a2479092dfaa4ccac0492f0f341edbc38505584ab489d6",
+    "sourcePage": "1970.html"
+  },
+  {
+    "localPath": "source/assets/1970-mexico/img_3283_1250x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3283_1250x2048.jpg",
+    "checksum": "62b70931bbcde9bd610a4c699ac03f35f5b0bbc2848b6c774d777320bf6392c2",
+    "sourcePage": "1970.html"
+  },
+  {
+    "localPath": "source/assets/1970-mexico/img_3281.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3281.jpg",
+    "checksum": "a16c980be711217dd3bfc2a6306255c2e003c1f2df3066ce56e1b653c49275bc",
+    "sourcePage": "1970.html"
+  },
+  {
+    "localPath": "source/assets/1970-mexico/img_3285_1072x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3285_1072x2048.jpg",
+    "checksum": "798e7464a0f0d5b3e8ba53d78ad5178b04a341cec17b1097332ead588539b646",
+    "sourcePage": "1970.html"
+  },
+  {
+    "localPath": "source/assets/1970-mexico/img_3291_2048x1791.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3291_2048x1791.jpg",
+    "checksum": "dd1d44e5fa92b1899d5554b766c5dc6f9a123c3886f37414ad7cb50b8861492a",
+    "sourcePage": "1970.html"
+  },
+  {
+    "localPath": "source/assets/1970-mexico/img_3288_2048x1287.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3288_2048x1287.jpg",
+    "checksum": "38e07d96963b7126b95980477c0a291b5e23e75312303b3354863038b2b7b649",
+    "sourcePage": "1970.html"
+  },
+  {
+    "localPath": "source/assets/1970-mexico/img_3289_2048x1282.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3289_2048x1282.jpg",
+    "checksum": "ba2013f0f8415a6801c3449295cb087bac8cd0772d5df1a22089fbc064f5bff5",
+    "sourcePage": "1970.html"
+  },
+  {
+    "localPath": "source/assets/1970-mexico/img_3267_1285x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3267_1285x2048.jpg",
+    "checksum": "fedbe3160d3fff3ecc2e53184c39c77c602f1204cee615636219d14a7723e421",
+    "sourcePage": "1970.html"
+  },
+  {
+    "localPath": "source/assets/1970-mexico/img_3268_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3268_1536x2048.jpg",
+    "checksum": "1b84fca680b68ab8464696bb4773c5ef60cb914652473e2a900d18e2aba94e28",
+    "sourcePage": "1970.html"
+  },
+  {
+    "localPath": "source/assets/1970-mexico/img_3269_1458x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3269_1458x2048.jpg",
+    "checksum": "36e7bc887f8c89da46f432c87a1c26bedfeedc4be997b2342c587935b2c89a19",
+    "sourcePage": "1970.html"
+  },
+  {
+    "localPath": "source/assets/1970-mexico/img_3270_1400x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3270_1400x2048.jpg",
+    "checksum": "5cdf10133e08e94961294dddec0ed87d512cea8aca918b5be534d0bfe2894979",
+    "sourcePage": "1970.html"
+  },
+  {
+    "localPath": "source/assets/1970-mexico/img_3271_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3271_1536x2048.jpg",
+    "checksum": "f4514b53e94fb21c935b3c0622f673b3e11dea84007d72fa903b285d11c1d236",
+    "sourcePage": "1970.html"
+  },
+  {
+    "localPath": "source/assets/1970-mexico/img_3272_2048x1836.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3272_2048x1836.jpg",
+    "checksum": "f03b84cafb24fd839854c5655314600398c06a7e0a9793227ed4e0e2234dfb23",
+    "sourcePage": "1970.html"
+  },
+  {
+    "localPath": "source/assets/1970-mexico/img_3273_2048x1504.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3273_2048x1504.jpg",
+    "checksum": "8fd968dfe6003c8faf3f3bb153745a2c0861ae1b47859908f701915c4209528a",
+    "sourcePage": "1970.html"
+  },
+  {
+    "localPath": "source/assets/1970-mexico/img_3286_2048x821.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3286_2048x821.jpg",
+    "checksum": "32daa8a5847a866879c8352c7e8017c4c41e5b89e8e580f734b0af6ddbfe9342",
+    "sourcePage": "1970.html"
+  },
+  {
+    "localPath": "source/assets/1970-mexico/img_3265_1467x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3265_1467x2048.jpg",
+    "checksum": "8f752c0b5f9c96d226ce606cedfbde8cb109001320a23fa0e5e401808ea76cbd",
+    "sourcePage": "1970.html"
+  },
+  {
+    "localPath": "source/assets/1970-mexico/img_3287_2048x1392.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3287_2048x1392.jpg",
+    "checksum": "429c842ad6588d84a98c6aa0d58fd535a48cc046921bebef52a1be8951aab1c9",
+    "sourcePage": "1970.html"
+  },
+  {
+    "localPath": "source/assets/1970-mexico/img_3266.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3266.jpg",
+    "checksum": "08b30e4fc79e224142a49e4aea9cbe606ecdeb5a950db5b95aa1b8b2b7c1558d",
+    "sourcePage": "1970.html"
+  },
+  {
+    "localPath": "source/assets/1970-mexico/img_3284_2048x1820.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3284_2048x1820.jpg",
+    "checksum": "d8eea486653b52ed4ec6177195576f117d6cdb1c0bb5972b77c5eb24bb8f50e4",
+    "sourcePage": "1970.html"
+  },
+  {
+    "localPath": "source/assets/1970-mexico/img_3280.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3280.jpg",
+    "checksum": "c8c2838ed543d48e609fb93f92836bc0f43e966a57cae7504efa2650adbfd6e4",
+    "sourcePage": "1970.html"
+  },
+  {
+    "localPath": "source/assets/1970-mexico/img_3277_2048x1598.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3277_2048x1598.jpg",
+    "checksum": "b96f707fd33cca61a58cab00e37dd8ac9437f01eb42a64852aad29ad45174e24",
+    "sourcePage": "1970.html"
+  },
+  {
+    "localPath": "source/assets/1970-mexico/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "1970.html"
+  },
+  {
+    "localPath": "source/assets/1970-mexico/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "1970.html"
+  },
+  {
+    "localPath": "source/assets/1970-mexico/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "1970.html"
+  },
+  {
+    "localPath": "source/assets/1974-germany/img_3299.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3299.jpg",
+    "checksum": "01cd80b22267ebfd240ddee9e89ceaae9d444e91c616fd231821010108498e8a",
+    "sourcePage": "1974.html"
+  },
+  {
+    "localPath": "source/assets/1974-germany/img_3274_2048x1625.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3274_2048x1625.jpg",
+    "checksum": "7c2f78def6d593cb7ce1e586c6c9cf03f7e72be9f7e5b47924135ae93e18d621",
+    "sourcePage": "1974.html"
+  },
+  {
+    "localPath": "source/assets/1974-germany/img_3298.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3298.jpg",
+    "checksum": "6aa46acd4f17396cd9431075e8062849f5b7df94d00692c2e865da8b1f4cbef0",
+    "sourcePage": "1974.html"
+  },
+  {
+    "localPath": "source/assets/1974-germany/img_3292_1805x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3292_1805x2048.jpg",
+    "checksum": "01e7207a16a7482165881a96dd317a3867c7880b540704bbd05b17298c720b86",
+    "sourcePage": "1974.html"
+  },
+  {
+    "localPath": "source/assets/1974-germany/img_3293_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3293_1536x2048.jpg",
+    "checksum": "7262f6249ce2aa4b90a256c18af38c27d7a24e6ed32cd91d35c478bfeb02700f",
+    "sourcePage": "1974.html"
+  },
+  {
+    "localPath": "source/assets/1974-germany/img_3294_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3294_2048x1536.jpg",
+    "checksum": "2e7a21274f06e51151ca6b124b730520dafc486e8865632f4539b67bfa317a82",
+    "sourcePage": "1974.html"
+  },
+  {
+    "localPath": "source/assets/1974-germany/img_3296_2048x2020.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3296_2048x2020.jpg",
+    "checksum": "c8c0824dac7f35e9c00c617c0b939dbf372ff5616e93973ea79b36cf2d47a6bc",
+    "sourcePage": "1974.html"
+  },
+  {
+    "localPath": "source/assets/1974-germany/img_3297_2048x1751.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3297_2048x1751.jpg",
+    "checksum": "36b354f2a92a6a5faa3cc0e7d0a6c541ecfab9f467db4d97e9faa61124ff2039",
+    "sourcePage": "1974.html"
+  },
+  {
+    "localPath": "source/assets/1974-germany/img_3295_2048x1772.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3295_2048x1772.jpg",
+    "checksum": "c9126bf506c5413d5f7cecf005cfdb0a9373ca7db5cf4eefc1353a3d3fd974d1",
+    "sourcePage": "1974.html"
+  },
+  {
+    "localPath": "source/assets/1974-germany/img_3300_2048x1630.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3300_2048x1630.jpg",
+    "checksum": "e3488fad52c86ae0b486473a4add81d7cac5c504d8eeb675794901c60459890f",
+    "sourcePage": "1974.html"
+  },
+  {
+    "localPath": "source/assets/1974-germany/img_3301_2048x1555.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3301_2048x1555.jpg",
+    "checksum": "e0ef22c183c18414936461d8bf72c847e8bd53e8fc331915650f6c43e3c94a9b",
+    "sourcePage": "1974.html"
+  },
+  {
+    "localPath": "source/assets/1974-germany/img_3302_2048x1583.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3302_2048x1583.jpg",
+    "checksum": "940fdaa2934ebb9260e9e544fed3b915964349386255784646cce010d12ee03b",
+    "sourcePage": "1974.html"
+  },
+  {
+    "localPath": "source/assets/1974-germany/img_3303_2048x1544.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3303_2048x1544.jpg",
+    "checksum": "3b50ca6ea08a519cf4517b3a56298302e7ca5c7e4c7f61129ab9b38f039d3c37",
+    "sourcePage": "1974.html"
+  },
+  {
+    "localPath": "source/assets/1974-germany/img_3306_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3306_1536x2048.jpg",
+    "checksum": "d3e1a3546d01c3d33fd785b0fa23178f4a496883ad1129b6561044d6b8114d64",
+    "sourcePage": "1974.html"
+  },
+  {
+    "localPath": "source/assets/1974-germany/img_3309_2048x1279.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3309_2048x1279.jpg",
+    "checksum": "d96a70bf8b423345f3d85969423d12bd7f5936a88f427d0121179d8356368dba",
+    "sourcePage": "1974.html"
+  },
+  {
+    "localPath": "source/assets/1974-germany/img_3276_1204x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3276_1204x2048.jpg",
+    "checksum": "8029b06cee6c86de9154f36d639a5d7841e1e86bba047a756c3c754e61a50cbc",
+    "sourcePage": "1974.html"
+  },
+  {
+    "localPath": "source/assets/1974-germany/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "1974.html"
+  },
+  {
+    "localPath": "source/assets/1974-germany/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "1974.html"
+  },
+  {
+    "localPath": "source/assets/1974-germany/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "1974.html"
+  },
+  {
+    "localPath": "source/assets/1978-argentina/img_3311_1309x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3311_1309x2048.jpg",
+    "checksum": "41a036a436ffb45b1fee454b0364f10dacd825277f4a655a00916a511ee300ae",
+    "sourcePage": "1978.html"
+  },
+  {
+    "localPath": "source/assets/1978-argentina/img_3312_936x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3312_936x2048.jpg",
+    "checksum": "da29be4f052f6beb0c90198cd8985810cd8c5adfc541636590942ba2a9caf9c8",
+    "sourcePage": "1978.html"
+  },
+  {
+    "localPath": "source/assets/1978-argentina/img_3313_2048x1502.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3313_2048x1502.jpg",
+    "checksum": "1b7173eaedfd9a203b50001bea21fc6ff239e02cc0f7966df57ffbcd1d116d26",
+    "sourcePage": "1978.html"
+  },
+  {
+    "localPath": "source/assets/1978-argentina/img_3314_1090x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3314_1090x2048.jpg",
+    "checksum": "b127dc361847b2d91af2f41455cf7ddaecf9937e3578c5eae6b100bf2afea119",
+    "sourcePage": "1978.html"
+  },
+  {
+    "localPath": "source/assets/1978-argentina/img_3316_1107x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3316_1107x2048.jpg",
+    "checksum": "c17aa2e6ea50b1526009aa1710c8059b733855252eb614646380bf78f49fd5b3",
+    "sourcePage": "1978.html"
+  },
+  {
+    "localPath": "source/assets/1978-argentina/img_3320.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3320.jpg",
+    "checksum": "f7e1e60b7d2e67ac16a78e78c7117843f343d5c7c187682b7b7a4b64e0db2dfd",
+    "sourcePage": "1978.html"
+  },
+  {
+    "localPath": "source/assets/1978-argentina/img_3315_1172x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3315_1172x2048.jpg",
+    "checksum": "5a331aae835b3d4bdd5c0f92872306092ea9ba2ba10a06d5e8427b855a240c67",
+    "sourcePage": "1978.html"
+  },
+  {
+    "localPath": "source/assets/1978-argentina/img_3318.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3318.jpg",
+    "checksum": "d71ba67efd0675af3eea467e9030d235aca95f5afef679513b02cedaef98763a",
+    "sourcePage": "1978.html"
+  },
+  {
+    "localPath": "source/assets/1978-argentina/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "1978.html"
+  },
+  {
+    "localPath": "source/assets/1978-argentina/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "1978.html"
+  },
+  {
+    "localPath": "source/assets/1978-argentina/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "1978.html"
+  },
+  {
+    "localPath": "source/assets/1982-spain/img_3321_2048x1124.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3321_2048x1124.jpg",
+    "checksum": "0759177b5cf54240e4a27935adf8481655d50ddb61996567d009bb473531115d",
+    "sourcePage": "1982.html"
+  },
+  {
+    "localPath": "source/assets/1982-spain/img_3326_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3326_1536x2048.jpg",
+    "checksum": "5d785855b2d635e60f830316b21888c7dc847893780d772ea76f0cff78bacdee",
+    "sourcePage": "1982.html"
+  },
+  {
+    "localPath": "source/assets/1982-spain/img_3323_2048x2017.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3323_2048x2017.jpg",
+    "checksum": "28f9986474e3705ea2752da8528113bd31d92975e0637c6ee4780a818fbf2315",
+    "sourcePage": "1982.html"
+  },
+  {
+    "localPath": "source/assets/1982-spain/img_3322_2048x1747.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3322_2048x1747.jpg",
+    "checksum": "d45f0f071ca31a8d6b7d5400421da3881e7bbb9e8ef2eda9419fe9910e03dd07",
+    "sourcePage": "1982.html"
+  },
+  {
+    "localPath": "source/assets/1982-spain/img_3324_2048x1969.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3324_2048x1969.jpg",
+    "checksum": "a0525e1d1e0cd186a00f4221cbd71ccaae6cff08048d6991238f8a92d5c0a0b8",
+    "sourcePage": "1982.html"
+  },
+  {
+    "localPath": "source/assets/1982-spain/img_3325_2048x1443.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3325_2048x1443.jpg",
+    "checksum": "41e2ff0d2673c74c950a8109d6273951099c563d30622e98090ab498ba55f967",
+    "sourcePage": "1982.html"
+  },
+  {
+    "localPath": "source/assets/1982-spain/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "1982.html"
+  },
+  {
+    "localPath": "source/assets/1982-spain/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "1982.html"
+  },
+  {
+    "localPath": "source/assets/1982-spain/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "1982.html"
+  },
+  {
+    "localPath": "source/assets/1986-mexico/img_3328_1775x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3328_1775x2048.jpg",
+    "checksum": "b7f89422e7e93221342ef69393eb62ba554250fa1911a6b1e94aaa0e06f0698f",
+    "sourcePage": "1986.html"
+  },
+  {
+    "localPath": "source/assets/1986-mexico/img_3327_1915x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3327_1915x2048.jpg",
+    "checksum": "39f7bfc4194910ffd2882291bad11acb1e643cf643073b3bbd6a85fc3dc3fc9c",
+    "sourcePage": "1986.html"
+  },
+  {
+    "localPath": "source/assets/1986-mexico/img_3329_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3329_2048x1536.jpg",
+    "checksum": "047880936a0a983cf083dc6e33fa23d479d340d6ffa64f9e9139978f9fe16204",
+    "sourcePage": "1986.html"
+  },
+  {
+    "localPath": "source/assets/1986-mexico/img_3331_1203x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3331_1203x2048.jpg",
+    "checksum": "6e03c1de5931d25da47ff35e37b59ebe269c279cc45942f93a6b42fded047084",
+    "sourcePage": "1986.html"
+  },
+  {
+    "localPath": "source/assets/1986-mexico/img_3332_2048x2040.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3332_2048x2040.jpg",
+    "checksum": "b1fa58c69d59b09067a4ad7d2e52f9b80949e944e10ad7a4e6ee48ad5a73d18d",
+    "sourcePage": "1986.html"
+  },
+  {
+    "localPath": "source/assets/1986-mexico/img_3330_1739x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3330_1739x2048.jpg",
+    "checksum": "5e650526e25980510482cfb6473b9d3f7a7266f1f39566c127bcadbb247a01c5",
+    "sourcePage": "1986.html"
+  },
+  {
+    "localPath": "source/assets/1986-mexico/img_3305_2048x984.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3305_2048x984.jpg",
+    "checksum": "47501eb59d615e6a3f11d87f061465796e7e8edb8136109d9efa142760fc2040",
+    "sourcePage": "1986.html"
+  },
+  {
+    "localPath": "source/assets/1986-mexico/img_3337_2048x1113.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3337_2048x1113.jpg",
+    "checksum": "4d234cc7b9aa9c5f3dbe3a4317d60e3597998af643f71b63f4cdd0be7ee8bc55",
+    "sourcePage": "1986.html"
+  },
+  {
+    "localPath": "source/assets/1986-mexico/img_3333_2048x1732.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3333_2048x1732.jpg",
+    "checksum": "20cecdf9318dc1e79b73d98880e1028ca4382b1539635b2d80f904ce8158c47b",
+    "sourcePage": "1986.html"
+  },
+  {
+    "localPath": "source/assets/1986-mexico/img_3336_2048x1101.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3336_2048x1101.jpg",
+    "checksum": "dbfd6b6ab870d5954085a5e768c2f3ed59aa02c8d9922c328e7f130e950d8c5a",
+    "sourcePage": "1986.html"
+  },
+  {
+    "localPath": "source/assets/1986-mexico/img_3304_2048x1969.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3304_2048x1969.jpg",
+    "checksum": "e4073eac3d2572c99d0ac7d1aa5de1e23ce6695de99905e690330b745ee7b4c3",
+    "sourcePage": "1986.html"
+  },
+  {
+    "localPath": "source/assets/1986-mexico/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "1986.html"
+  },
+  {
+    "localPath": "source/assets/1986-mexico/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "1986.html"
+  },
+  {
+    "localPath": "source/assets/1986-mexico/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "1986.html"
+  },
+  {
+    "localPath": "source/assets/1990-italy/img_3348_2048x1982.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3348_2048x1982.jpg",
+    "checksum": "6951316b71a5e4debe835c0f2ffb0b74b5f4c5759d6aedff7a98b1cfe41fe608",
+    "sourcePage": "1990.html"
+  },
+  {
+    "localPath": "source/assets/1990-italy/img_3346_1196x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3346_1196x2048.jpg",
+    "checksum": "d3096e0d61131f15f3885919194bc45781582ee8befed8a187e6285319b1fe55",
+    "sourcePage": "1990.html"
+  },
+  {
+    "localPath": "source/assets/1990-italy/img_3347_1404x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3347_1404x2048.jpg",
+    "checksum": "3d55751e735353696deb30e8ad7d93eccbd5c96aa2419321a807bf078ab0a910",
+    "sourcePage": "1990.html"
+  },
+  {
+    "localPath": "source/assets/1990-italy/img_3338_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3338_1536x2048.jpg",
+    "checksum": "f9f3873ba0d1a78fdc232021e164808511d995f5ab76e8ede1d689266bc2b15a",
+    "sourcePage": "1990.html"
+  },
+  {
+    "localPath": "source/assets/1990-italy/img_3345_1238x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3345_1238x2048.jpg",
+    "checksum": "4389ccbb2c2b1b80f1a04eb43a8b823cadbd76b80ef1068ce0cbc04aff390848",
+    "sourcePage": "1990.html"
+  },
+  {
+    "localPath": "source/assets/1990-italy/img_3339_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3339_1536x2048.jpg",
+    "checksum": "0ac12d6c1f094d6261e6d31c7efe63a2a2c18191ed430edde97d96954bad8f4c",
+    "sourcePage": "1990.html"
+  },
+  {
+    "localPath": "source/assets/1990-italy/img_3341.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3341.jpg",
+    "checksum": "6c93b17c6e991b1147a0e1193b9dd145fec3cad09a9f8421b5f9e9118dd60f76",
+    "sourcePage": "1990.html"
+  },
+  {
+    "localPath": "source/assets/1990-italy/img_3342_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3342_1536x2048.jpg",
+    "checksum": "2c2d600ff8bc437c0e08813bb3898a58c788253eebbb027e4131895d765db6ac",
+    "sourcePage": "1990.html"
+  },
+  {
+    "localPath": "source/assets/1990-italy/img_3343_1261x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3343_1261x2048.jpg",
+    "checksum": "12b50ef92e0bbd366c78faa649f45537a42be8fc1f68295be7d0b731b0af7015",
+    "sourcePage": "1990.html"
+  },
+  {
+    "localPath": "source/assets/1990-italy/img_3340_2048x724.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3340_2048x724.jpg",
+    "checksum": "78a4d682345515b095be5a7338da60d8a59b98f9f29d33d82e1731c2c86dac67",
+    "sourcePage": "1990.html"
+  },
+  {
+    "localPath": "source/assets/1990-italy/img_3344_1281x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3344_1281x2048.jpg",
+    "checksum": "4a026c321e8be521c72779b7702b3a9247430b41639c8e0e092b038d3b9fd70c",
+    "sourcePage": "1990.html"
+  },
+  {
+    "localPath": "source/assets/1990-italy/img_3349_2048x1859.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3349_2048x1859.jpg",
+    "checksum": "7293c952ad58144976637a3d4bca4c05da0131aa1fa5c78063e8623c5ccd5571",
+    "sourcePage": "1990.html"
+  },
+  {
+    "localPath": "source/assets/1990-italy/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "1990.html"
+  },
+  {
+    "localPath": "source/assets/1990-italy/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "1990.html"
+  },
+  {
+    "localPath": "source/assets/1990-italy/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "1990.html"
+  },
+  {
+    "localPath": "source/assets/1994-usa/img_3354_2048x1344.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3354_2048x1344.jpg",
+    "checksum": "7866cb520d01b36d5930650f374cb1d6e08904aa67a4dc672fd5d2f6326a8319",
+    "sourcePage": "1994.html"
+  },
+  {
+    "localPath": "source/assets/1994-usa/img_3351_1944x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3351_1944x2048.jpg",
+    "checksum": "4d2a6289f3203e2175e7b5581de293818efc82ba7141f4340a5bc26360f531f5",
+    "sourcePage": "1994.html"
+  },
+  {
+    "localPath": "source/assets/1994-usa/img_3355_2048x1421.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3355_2048x1421.jpg",
+    "checksum": "5fd7bef54cf9aed0640c63a35003f271e2f75127c9f7ce753e51306f250c87aa",
+    "sourcePage": "1994.html"
+  },
+  {
+    "localPath": "source/assets/1994-usa/img_3350_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3350_1536x2048.jpg",
+    "checksum": "7adfd56c1d015f3152aa123a3b76ebcb405cc84487040c5f37c6f5eed3b3da4a",
+    "sourcePage": "1994.html"
+  },
+  {
+    "localPath": "source/assets/1994-usa/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "1994.html"
+  },
+  {
+    "localPath": "source/assets/1994-usa/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "1994.html"
+  },
+  {
+    "localPath": "source/assets/1994-usa/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "1994.html"
+  },
+  {
+    "localPath": "source/assets/1998-france/ticket_1.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/ticket_1.jpg",
+    "checksum": "37dd6346184ba2520a1d0a1c6284021d5007eba4fabb6c69f82590af01198828",
+    "sourcePage": "1998.html"
+  },
+  {
+    "localPath": "source/assets/1998-france/img_3356_1865x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3356_1865x2048.jpg",
+    "checksum": "2f77039b6a293fde0e46063f730eb2209a2577b416dfc6be187509ba996fe2b2",
+    "sourcePage": "1998.html"
+  },
+  {
+    "localPath": "source/assets/1998-france/ticket_2.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/ticket_2.jpg",
+    "checksum": "1268fb7368d999d869ac09af3afa48ee6f475da2a1da34e7d704eb9e086afe95",
+    "sourcePage": "1998.html"
+  },
+  {
+    "localPath": "source/assets/1998-france/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "1998.html"
+  },
+  {
+    "localPath": "source/assets/1998-france/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "1998.html"
+  },
+  {
+    "localPath": "source/assets/1998-france/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "1998.html"
+  },
+  {
+    "localPath": "source/assets/2002-korea-japan/img_3361_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3361_2048x1536.jpg",
+    "checksum": "5560615ea03155c5b0b52ad2ae92838cc26a9a4224fba901f969918afc116351",
+    "sourcePage": "2002.html"
+  },
+  {
+    "localPath": "source/assets/2002-korea-japan/img_3360_1685x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3360_1685x2048.jpg",
+    "checksum": "40ae35f453bdc1bd979c3b0ec07b6ace339ce518351c856935ef05b6a056118b",
+    "sourcePage": "2002.html"
+  },
+  {
+    "localPath": "source/assets/2002-korea-japan/img_3359_1590x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3359_1590x2048.jpg",
+    "checksum": "572ae176dbdf757b196adff16b035a5cdcd4b9eb6b2bed992540043e01b4b8ed",
+    "sourcePage": "2002.html"
+  },
+  {
+    "localPath": "source/assets/2002-korea-japan/img_3358_1627x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3358_1627x2048.jpg",
+    "checksum": "63c6be618366337f4b309966f02fec1d7c310810991765efd8ac2127e6f26d28",
+    "sourcePage": "2002.html"
+  },
+  {
+    "localPath": "source/assets/2002-korea-japan/img_3357_2048x1322.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3357_2048x1322.jpg",
+    "checksum": "68ff8b13f002f2cc0112c2477ec77ea6fc9f4c40d87d46bb366c7db7136b8ec9",
+    "sourcePage": "2002.html"
+  },
+  {
+    "localPath": "source/assets/2002-korea-japan/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "2002.html"
+  },
+  {
+    "localPath": "source/assets/2002-korea-japan/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "2002.html"
+  },
+  {
+    "localPath": "source/assets/2002-korea-japan/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "2002.html"
+  },
+  {
+    "localPath": "source/assets/2006-germany/img_3334_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3334_1536x2048.jpg",
+    "checksum": "c61100fdf4b324c739a965de1866f1c0939565bb0091d10c1e0f6ed9c91e9c2f",
+    "sourcePage": "2006.html"
+  },
+  {
+    "localPath": "source/assets/2006-germany/img_3362_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3362_1536x2048.jpg",
+    "checksum": "07fe2ef4ecc6d1477c679c15450cbf0178c6dfa929bfcb650dfbbfb2c0444c59",
+    "sourcePage": "2006.html"
+  },
+  {
+    "localPath": "source/assets/2006-germany/img_3363_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3363_2048x1536.jpg",
+    "checksum": "c26c12646f0a86bdc1e9ffe0917de56fc8b0a76c1cc59172e78974cb258c707a",
+    "sourcePage": "2006.html"
+  },
+  {
+    "localPath": "source/assets/2006-germany/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "2006.html"
+  },
+  {
+    "localPath": "source/assets/2006-germany/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "2006.html"
+  },
+  {
+    "localPath": "source/assets/2006-germany/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "2006.html"
+  },
+  {
+    "localPath": "source/assets/2010-south-africa/img_3335_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3335_1536x2048.jpg",
+    "checksum": "ed03822c520d228de29c7d1514ce806e905ac3a54708a6c99d6aad330ca958f6",
+    "sourcePage": "2010.html"
+  },
+  {
+    "localPath": "source/assets/2010-south-africa/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "2010.html"
+  },
+  {
+    "localPath": "source/assets/2010-south-africa/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "2010.html"
+  },
+  {
+    "localPath": "source/assets/2010-south-africa/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "2010.html"
+  },
+  {
+    "localPath": "source/assets/2014-brasil/img_3364_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3364_1536x2048.jpg",
+    "checksum": "370199ea0837b2842a84c01af30812f8f171d18f4cadbf6a9b4671ea2928f954",
+    "sourcePage": "2014.html"
+  },
+  {
+    "localPath": "source/assets/2014-brasil/img_3365_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3365_1536x2048.jpg",
+    "checksum": "8dea79f65aa2d65113e1b0ff6b4a793065bd7679a4b929e9d0762c7cd54b6060",
+    "sourcePage": "2014.html"
+  },
+  {
+    "localPath": "source/assets/2014-brasil/img_3368_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3368_1536x2048.jpg",
+    "checksum": "370199ea0837b2842a84c01af30812f8f171d18f4cadbf6a9b4671ea2928f954",
+    "sourcePage": "2014.html"
+  },
+  {
+    "localPath": "source/assets/2014-brasil/img_3370_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3370_1536x2048.jpg",
+    "checksum": "e4fc359aa548fa62aa34b5b0101993d38d37224618628de73a72f7ea5ecdf847",
+    "sourcePage": "2014.html"
+  },
+  {
+    "localPath": "source/assets/2014-brasil/img_3371_2048x1248.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3371_2048x1248.jpg",
+    "checksum": "22e82764c0205de61f8da0a91f5a8c29a6d50c8da68cb9107336c9b738065dcf",
+    "sourcePage": "2014.html"
+  },
+  {
+    "localPath": "source/assets/2014-brasil/img_3372_2048x945.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3372_2048x945.jpg",
+    "checksum": "6dd0792df280f23b94f27ef534bd5e7aa21968c88c77c6407cdd89d90f2346e7",
+    "sourcePage": "2014.html"
+  },
+  {
+    "localPath": "source/assets/2014-brasil/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "2014.html"
+  },
+  {
+    "localPath": "source/assets/2014-brasil/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "2014.html"
+  },
+  {
+    "localPath": "source/assets/2014-brasil/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "2014.html"
+  },
+  {
+    "localPath": "source/assets/2018-russia/img_3373_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3373_1536x2048.jpg",
+    "checksum": "ac3bced75d14da0649028419721fa7e0a4fdaea6c36a710f3a92fcfb75e44a83",
+    "sourcePage": "2018.html"
+  },
+  {
+    "localPath": "source/assets/2018-russia/img_3374_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3374_2048x1536.jpg",
+    "checksum": "6e6acc1bb6aa2ce0892e206961bb0918443e85d08fc62a5f45b3550eee170641",
+    "sourcePage": "2018.html"
+  },
+  {
+    "localPath": "source/assets/2018-russia/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "2018.html"
+  },
+  {
+    "localPath": "source/assets/2018-russia/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "2018.html"
+  },
+  {
+    "localPath": "source/assets/2018-russia/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "2018.html"
+  },
+  {
+    "localPath": "source/assets/2022-qatar/img_3384_1762x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3384_1762x2048.jpg",
+    "checksum": "4a0031251c07f383d2d9d94b9069c0509ad2e7a07bc56fcc6cf9f7f3ded8d302",
+    "sourcePage": "2022.html"
+  },
+  {
+    "localPath": "source/assets/2022-qatar/img_3386_1838x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3386_1838x2048.jpg",
+    "checksum": "43c0da9d76cc3e4b066968aee0f56756b5c72ef361b8dabe57c932faf81a34a2",
+    "sourcePage": "2022.html"
+  },
+  {
+    "localPath": "source/assets/2022-qatar/img_3387_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3387_1536x2048.jpg",
+    "checksum": "4951c8b1230ccb44811e86fc560efe1c03b1c3c3292613c7edd9425086917142",
+    "sourcePage": "2022.html"
+  },
+  {
+    "localPath": "source/assets/2022-qatar/img_3382_2008x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3382_2008x2048.jpg",
+    "checksum": "1410f00ee54156f037863586e96601709f143058d7f6f678e080f99d3b4d8428",
+    "sourcePage": "2022.html"
+  },
+  {
+    "localPath": "source/assets/2022-qatar/img_3375_1653x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3375_1653x2048.jpg",
+    "checksum": "538212a235bba4b5dccbf4a99915c591c5e80766378cdfb2c6bdc5e94a85d579",
+    "sourcePage": "2022.html"
+  },
+  {
+    "localPath": "source/assets/2022-qatar/img_3383_2048x1658.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3383_2048x1658.jpg",
+    "checksum": "6c26a4bf4321b03316807f8413ad1afacca0cbe2d1cc73f920039954e550cedd",
+    "sourcePage": "2022.html"
+  },
+  {
+    "localPath": "source/assets/2022-qatar/img_3377_1584x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3377_1584x2048.jpg",
+    "checksum": "e0bd0139c2b421a854592492730b9f97ab2b38996a45a88307a2e9a0ae0fecee",
+    "sourcePage": "2022.html"
+  },
+  {
+    "localPath": "source/assets/2022-qatar/img_3380_2048x1986.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3380_2048x1986.jpg",
+    "checksum": "55435004c03f7de211164497e3763c151b337a7f625755b19791f8752c9cc4f1",
+    "sourcePage": "2022.html"
+  },
+  {
+    "localPath": "source/assets/2022-qatar/img_3381_2048x1740.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3381_2048x1740.jpg",
+    "checksum": "26f7d51ad4327c23bbe8808e6dbdd63fd44ebba36121aad80ebb26dd7d6377fb",
+    "sourcePage": "2022.html"
+  },
+  {
+    "localPath": "source/assets/2022-qatar/img_3378_1401x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3378_1401x2048.jpg",
+    "checksum": "02f561d8351318e69c9806d70a28549d5e874e57d10903ba068ece425657ba07",
+    "sourcePage": "2022.html"
+  },
+  {
+    "localPath": "source/assets/2022-qatar/img_3379_2048x1282.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3379_2048x1282.jpg",
+    "checksum": "6cefc8a423c6b5e5d1ede324d8957355fbe3be6c10f7a03a26625cebdd6b709b",
+    "sourcePage": "2022.html"
+  },
+  {
+    "localPath": "source/assets/2022-qatar/img_3376.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3376.jpg",
+    "checksum": "957f79ec8d86d651c3464242acc539e0156cc4423d3882956392f46c8c187f1e",
+    "sourcePage": "2022.html"
+  },
+  {
+    "localPath": "source/assets/2022-qatar/img_3385_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3385_2048x1536.jpg",
+    "checksum": "3975efd10de58489c5757d3bc07fd4135d91a5c491bc23063193fe10f77ec2bd",
+    "sourcePage": "2022.html"
+  },
+  {
+    "localPath": "source/assets/2022-qatar/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "2022.html"
+  },
+  {
+    "localPath": "source/assets/2022-qatar/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "2022.html"
+  },
+  {
+    "localPath": "source/assets/2022-qatar/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "2022.html"
+  },
+  {
+    "localPath": "source/assets/2026-canada-usa-mexico/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "2026.html"
+  },
+  {
+    "localPath": "source/assets/2026-canada-usa-mexico/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "2026.html"
+  },
+  {
+    "localPath": "source/assets/2026-canada-usa-mexico/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "2026.html"
+  },
+  {
+    "localPath": "source/assets/autographs/das_wunder_von_bern_2048x803.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/das_wunder_von_bern_2048x803.jpg",
+    "checksum": "5e6d26a8f7ef54b352dbd6cf786e430a65221520dcfa24f0f9b29b423fed16c3",
+    "sourcePage": "autographs.html"
+  },
+  {
+    "localPath": "source/assets/autographs/img_3119_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3119_2048x1536.jpg",
+    "checksum": "b59f68b1112974f3e44ad7046340cf6653e41a5fbbee3bff1ceead841fbc074c",
+    "sourcePage": "autographs.html"
+  },
+  {
+    "localPath": "source/assets/autographs/img_3135_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3135_2048x1536.jpg",
+    "checksum": "43e50ccd25590827b4ac9d86cfb7687e83968d9cdde20469fc8007016fe964b2",
+    "sourcePage": "autographs.html"
+  },
+  {
+    "localPath": "source/assets/autographs/img_3249_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3249_1536x2048.jpg",
+    "checksum": "57e551748255808b7c5e992d9934d08d41680399c17cfc7ae07097d3c227cee2",
+    "sourcePage": "autographs.html"
+  },
+  {
+    "localPath": "source/assets/autographs/img_3307_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3307_2048x1536.jpg",
+    "checksum": "dd1a2e09439110fcbe29b82dc37cc61823502acd02c4ba9796e7eb992cfc4168",
+    "sourcePage": "autographs.html"
+  },
+  {
+    "localPath": "source/assets/autographs/img_3413_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3413_1536x2048.jpg",
+    "checksum": "4f9178842b2cc62a891927af8c873f1b073365551e061808a6343be918e76e60",
+    "sourcePage": "autographs.html"
+  },
+  {
+    "localPath": "source/assets/autographs/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "autographs.html"
+  },
+  {
+    "localPath": "source/assets/autographs/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "autographs.html"
+  },
+  {
+    "localPath": "source/assets/autographs/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "autographs.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3176_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3176_1536x2048.jpg",
+    "checksum": "86fd92b993de68c98427ad0cfe5ba3bc0ad5e0cefc5c6baa349377b0470e30f3",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3155_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3155_2048x1536.jpg",
+    "checksum": "15226a094f8da80b5d30954b50e5be36067bc9333ba4924974c44caaa401260a",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3160_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3160_1536x2048.jpg",
+    "checksum": "96676b581f9b1bb987663704696ea2884d9a878c79d976a01f20cc171f2b4da9",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3156_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3156_1536x2048.jpg",
+    "checksum": "627c2e70ec6cad2260194ddaefb8ebee4b7bfbeebc8c42c12a214e798056ad8e",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3157_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3157_2048x1536.jpg",
+    "checksum": "15ef26ea4ea8a2720e2115d1ee09adbcb9520c076d78ce8d7e66beb489ade692",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3158_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3158_2048x1536.jpg",
+    "checksum": "792cfe83d7d332963139afd595d79729dfc8cf97c3a90646285f121e8d58a2c9",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3161_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3161_2048x1536.jpg",
+    "checksum": "f7b080eab0fc1ee881bc96d373d81b829c28dfd2e0fbf4dcd5a9265bdfc7055a",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3162_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3162_2048x1536.jpg",
+    "checksum": "ce187022e79bd6f9cd5706e7e21c367b7086d1dd2b5d77dea9a6e3ca21ef7605",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3163_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3163_2048x1536.jpg",
+    "checksum": "21aa7cae62f24044908237dd8c8c1a9489d0ecb1085440471f9acdbbabb0463d",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3164_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3164_2048x1536.jpg",
+    "checksum": "4feacc8f3fa31ac5770c04879746696d38a5c06aeefa68ae0f251715a8792117",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3165_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3165_2048x1536.jpg",
+    "checksum": "14d2c800380da694bae5bee0a75a8e9d3f80c1f8c408bbbb411965540537ae88",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3166_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3166_2048x1536.jpg",
+    "checksum": "41eb49cdf65bd495ffd57dbc444853197c6ad9237af70e84e84cbeefe9750627",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3167_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3167_2048x1536.jpg",
+    "checksum": "99e6a63d2d1b7cd9d3e575c0dfbd9cd8baf377620a7ba9c837442ddebf7fda47",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3168_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3168_2048x1536.jpg",
+    "checksum": "8409cb13f93b175244a9104fe2ae74c4b981e742e42db79612319ec966751fc9",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3169_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3169_2048x1536.jpg",
+    "checksum": "f353315ed679798fb6c9ccc016a0f2169c366d41e6559178c830dadeafe04140",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3215_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3215_2048x1536.jpg",
+    "checksum": "0803a91eeb162fa80fe4ed764204c3a57ba84221f5eb5f09bc09ee23ec96cd4e",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3216_2048x15361.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3216_2048x15361.jpg",
+    "checksum": "92928eb3f231480d7184fdae70eb1bce7cdc3ec811ec1ae4b2f062e22deabc2d",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3221_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3221_2048x1536.jpg",
+    "checksum": "ec0028289c80960fe8ae0a49ef552180ace4345e0c44ab4bd87ca26ba32ff259",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3224_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3224_2048x1536.jpg",
+    "checksum": "0adbcd28a10e6a55e25f900fd94b942039669f9b71c25081fdae23046c986571",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3226_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3226_2048x1536.jpg",
+    "checksum": "5f892073c100b0bb287c4eefa776661cff21224e635ddfeb92bc1e0f641ebff6",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3159_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3159_2048x1536.jpg",
+    "checksum": "7d8c5f219c6c7083a7c2bebb8968d39e3211d3b121eb3d292c241618287e0696",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3217_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3217_2048x1536.jpg",
+    "checksum": "e50ceb1baa5fb93facb948d5b0cbc1caef01f0e8ccaa36cc110413907cca6f39",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3218_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3218_2048x1536.jpg",
+    "checksum": "52cdd1f7ceb8c3f51723763da4012a490eff326e57f3dbbceab69fcf0f3e1b4a",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3177_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3177_1536x2048.jpg",
+    "checksum": "1e27c5cc1ed233db213a1f5e9d45bed2c80957a24838f6306c6d7afb29669922",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3178_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3178_1536x2048.jpg",
+    "checksum": "5f74126f1ae5defdac3786e139ba0b1747650ed4ac97957a4c2c5fb4a7f87502",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3219_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3219_1536x2048.jpg",
+    "checksum": "a7ea6ede5ce11ce23aaa33ade041c9b1b350803d74e600f2d965cbdbe96d07da",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3220_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3220_1536x2048.jpg",
+    "checksum": "8c739cc546224104fee9bf8274fc80da970df33536d6c55ef65a755283fa9076",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3222_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3222_1536x2048.jpg",
+    "checksum": "14f04de815c38a85124f7c256e0ff103ac728c214bab9a61908802d05676e7f0",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3104_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3104_1536x2048.jpg",
+    "checksum": "65f49269aa889141883d9b07eadfa4be8dbdc3789251f1f9fb20e8fdc44db3ac",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3172_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3172_2048x1536.jpg",
+    "checksum": "23607fde9d832c2c958dc369943c61e7d0d6b6d8b5b13c86381e9b8342d8b154",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3173_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3173_2048x1536.jpg",
+    "checksum": "0aba8f0910067d7da9eed0c10c374f3fe2a3262c18102779f4ac86490879c198",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3175_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3175_2048x1536.jpg",
+    "checksum": "df7a276fb8fd40f1aca9f7231627d1e33778b2fc52a0b59081304c36a5b61c07",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3225_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3225_1536x2048.jpg",
+    "checksum": "7422eb97043babe605fbe43a2199400c287599dd334e253b5e3f8a1777ea2f50",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/img_3308_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3308_2048x1536.jpg",
+    "checksum": "f24dc5bde6a5bf405524ab7496cd072c3763e49f8e043648fb6a3f38f1332d35",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/information-boards/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "information_boards.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3425_1560x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3425_1560x2048.jpg",
+    "checksum": "9757fab6dd97af592c8ec6b7800a9d8ee29ac40d1818daa8c59c6a68db3b9003",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3045_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3045_1536x2048.jpg",
+    "checksum": "a3249367ff063aea2ccc2768d791d6afcffaab7f7237531175e9dc739f28897b",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3032_2048x1505.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3032_2048x1505.jpg",
+    "checksum": "59e2b1d8809f02d5427d17a614d2314f596424667ab85c95a292f9fed6de48c8",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3027_2048x1863.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3027_2048x1863.jpg",
+    "checksum": "c7f8eb26f3f0a17c58206dc3d564b59f8098b12038d743a7f41b651738acbb23",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3048_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3048_1536x2048.jpg",
+    "checksum": "735b567d65dc25e3b1a98ec6610ccab8afd45ccfb71bd760bafab1a1048ec5e8",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3058_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3058_1536x2048.jpg",
+    "checksum": "0aa8d8a277074d3c8efb4364e3bd2a39968cfe534672feac285d702934fccbf9",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3018_2048x1631.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3018_2048x1631.jpg",
+    "checksum": "59e1e1ecc9da6677a6197b44d2ad5b53a79e259b2429a9a89e3f33ecb851f680",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3019_2048x1880.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3019_2048x1880.jpg",
+    "checksum": "462a83262ebf2d1a675ce959c958b67307afd380a15819d77d0a24dae1063810",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3020_2048x1935.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3020_2048x1935.jpg",
+    "checksum": "852e300cdd4d2bcb71a09e83848adf818bd5aec563deaf24c216f3af58eaac2c",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3021_2048x2039.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3021_2048x2039.jpg",
+    "checksum": "7d0be6d9158d9136ccc9b4389d0fbb1ce635ac483d13f36be75f94ac252bc403",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3022_2048x1957.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3022_2048x1957.jpg",
+    "checksum": "abff47a33bfe130aae218ca31f1ecfd3f56c56f2a3dafb816062a28443712114",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3059_1762x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3059_1762x2048.jpg",
+    "checksum": "31ba44e770d97fc956f03396c6830be7fbed0658a5229bff6962eb2f112f8f1e",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3060_1556x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3060_1556x2048.jpg",
+    "checksum": "717fbc9a1938c3c0008d130f67b71376e436b155a7a25e99528502cce5c50e67",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3061_1648x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3061_1648x2048.jpg",
+    "checksum": "816cd903156e199f0e71362cbbfe8a81920aa107e6f3d58e366d3533bf42024c",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3389_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3389_1536x2048.jpg",
+    "checksum": "dc6feb72c858a097d217761af0f1cd4a5d2c6b5fc9f46030be3336372a2f3baa",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3390_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3390_1536x2048.jpg",
+    "checksum": "62e470ed59f3c35fe576e532e9d2fcb639e74140f1526992acb02aef5add17a1",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3062_2048x1996.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3062_2048x1996.jpg",
+    "checksum": "4ef590f31fd27ddb1a21cce7b694d696d9afffb7237a23288b65453ccf035a09",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3063_2048x2019.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3063_2048x2019.jpg",
+    "checksum": "4a17b742aa48be91e62634f84b077d010d49551b1e93c947b8741b878a0ac056",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3064_2048x1972.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3064_2048x1972.jpg",
+    "checksum": "1ab587308a35cb7982f4f5e64916c32862b1c625a2f3ef043ed39c23d34a0759",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3065_2048x2042.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3065_2048x2042.jpg",
+    "checksum": "1cf9b6d6b53831f218a45d873ddd9b60431e626b04d9fe09bb607e6121417d16",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3066_1962x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3066_1962x2048.jpg",
+    "checksum": "8fe5a555fbc86b646f7efd9c377ebf80dec34dac836d3fe48237edbb15e39e97",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3067_2048x2037.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3067_2048x2037.jpg",
+    "checksum": "69e04c78d1caa9a59d2c1a1c347dacfbe66173c6f7019780165692d3ffb87a03",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3068_2048x2015.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3068_2048x2015.jpg",
+    "checksum": "d0e08337e389fcc4bc53e09779995f22745444d9fb93318328ec7def7ec68b3b",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3070_2048x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3070_2048x2048.jpg",
+    "checksum": "e5d0791abeadb0f8c2cb05296ac4adb3f5dac6ca5e45cf4c0a360ce61eb5be39",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3069_2048x2036.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3069_2048x2036.jpg",
+    "checksum": "079d2c825d9f6aee72d4a90783b196028176c30155ea990756106f1f5ca2ba67",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3071_2048x2018.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3071_2048x2018.jpg",
+    "checksum": "5bf58c35416bb5448dd578baf57aa2f5e096c17afb417138bf663e8512b8c5a3",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3072_2048x2030.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3072_2048x2030.jpg",
+    "checksum": "05293136b1df3a75dde74fc1061a2a1cd26131dcb3d2d3d22970e449e52dc59c",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3073_2039x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3073_2039x2048.jpg",
+    "checksum": "025733ac8a09aed264c1258e9a2196d282faf5c347fb99c03dfe02f00a64d5a5",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3074_2028x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3074_2028x2048.jpg",
+    "checksum": "580ba3656474167d7e3acd1ed2fc1ea2be7864d286cb0048335561ca6e06c45c",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3075_2048x1943.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3075_2048x1943.jpg",
+    "checksum": "a4ff194ed46496863265132ae2adda522477beff0a8a7260dbd4e3962a143108",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3076_2013x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3076_2013x2048.jpg",
+    "checksum": "bdaa2e02f5efe4353d7e38df92471a0629f12b82f0d5d2ee5225b0e9f9ee3b76",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3077_2048x2012.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3077_2048x2012.jpg",
+    "checksum": "1c2588f0acc1de040dd424594a9c304741b5443c4783779fb21f36cdc2d79d85",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3078_2048x2028.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3078_2048x2028.jpg",
+    "checksum": "1c7cc9dabf6c90bcc79e3d343277a145ba630fed3e505f86bbae6a41acd5e7aa",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3079_2048x2045.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3079_2048x2045.jpg",
+    "checksum": "5829be2454ba95a7594809f22b8524241ce54d61d1a1a497af04e985e35700d2",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3080_2042x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3080_2042x2048.jpg",
+    "checksum": "6e5ddb4bea16fed4c1a13233fbea211a02c70729b3e77e9f9fc27894638114dd",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3081_2026x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3081_2026x2048.jpg",
+    "checksum": "c5334f90750dee64d6d5c144171d9c24ba853c1451b25051175ea65ad60dd187",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3082_2036x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3082_2036x2048.jpg",
+    "checksum": "4d8f0f2b4aa2aae62de13156722a99e49210b947d3b925d5d4b82daae409557e",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3083_2048x2033.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3083_2048x2033.jpg",
+    "checksum": "9c5158a9f8f1a32e2c793d01ac9e8807e6f3d1149c3328fd31e72a55079dabd4",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3084_2048x1980.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3084_2048x1980.jpg",
+    "checksum": "1ff5f080c70ff53264937c6af2a47a5606887b429e17494547cc9cb6c06d2b13",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3085_2048x2001.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3085_2048x2001.jpg",
+    "checksum": "3dee7f7e3c217917bac22c76e19aa25256b24e14a1cb58c783cee49ad3b223e0",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3086_2048x1998.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3086_2048x1998.jpg",
+    "checksum": "013e7d66877718521626e42d6e4ceba961cced6bcfbc8f712d4886f15fd01d1d",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3087_2036x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3087_2036x2048.jpg",
+    "checksum": "534acc94656b90a05ee1ea13915ab6a265a8da60aa0321fd075611a080f3c512",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3090_2048x2041.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3090_2048x2041.jpg",
+    "checksum": "5646bfc5fead7f46567a7574d54d987aac5553d101632b924ce2f892eb1ac3cb",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3091_2016x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3091_2016x2048.jpg",
+    "checksum": "05aec83114ea2111ffecd29602f49ccfa333d56201b39862190cd52db39bba7c",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3092_2048x2034.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3092_2048x2034.jpg",
+    "checksum": "48b36c83af633a65247959a09ef8cf73fe4e19ba70b7a0138c550f094b552fcc",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3093_2048x2046.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3093_2048x2046.jpg",
+    "checksum": "c58440df13706b27489db452242569e4b1679b0f2d92e573b262691beaa48a52",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3094_2048x1778.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3094_2048x1778.jpg",
+    "checksum": "f32f72120142738c0f2560396c8ce908b2a55d1f995468d6f5558294e9015253",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3366_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3366_1536x2048.jpg",
+    "checksum": "5073fdb5930c52c618144071c1b52b4e9c38b7bba0108cce8475eecfe1e51f77",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3367_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3367_1536x2048.jpg",
+    "checksum": "3336b7009582b2443485a7af21257d6e96fde75590d50c262afad3dc9519eb4f",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3388_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3388_1536x2048.jpg",
+    "checksum": "b7f1eb752440a80ed2557c812dd04cf26ed657ad4005faca17b1ae2fb4be4835",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3391_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3391_1536x2048.jpg",
+    "checksum": "c089a2bcefed616a1d829aa15f1a0c4d23e618eac2b20235453307c519b6ef1b",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3393_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3393_1536x2048.jpg",
+    "checksum": "3336b7009582b2443485a7af21257d6e96fde75590d50c262afad3dc9519eb4f",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3392_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3392_1536x2048.jpg",
+    "checksum": "5073fdb5930c52c618144071c1b52b4e9c38b7bba0108cce8475eecfe1e51f77",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3399_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3399_1536x2048.jpg",
+    "checksum": "a4ecf67d4581f36e0c899f92b49f89d82fb282a3a8b60fc7b69495a0620d9f59",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3033_1515x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3033_1515x2048.jpg",
+    "checksum": "0ba621c5b42777dc9d11f7c8a9582c69e911a8e3e4e60706676035e0563059d7",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3034_2048x1989.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3034_2048x1989.jpg",
+    "checksum": "81dd6ed60ff9f441b5376e9938faf251b1144965ebb29886c3991ab0cf626606",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3044_2048x1378.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3044_2048x1378.jpg",
+    "checksum": "d735d07db86caa75de841f721bcf80102848d79404d17997a4a925d06235683d",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3035_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3035_1536x2048.jpg",
+    "checksum": "59f2be7bb44298de3b28ea28cc5dc343f24bdf1a16a95a4d1f7dd10adfeebd17",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3036_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3036_1536x2048.jpg",
+    "checksum": "2577c6033d71c0c2c73087b13741be348ef20738365ce5fb9964fd15901d7eab",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3037_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3037_1536x2048.jpg",
+    "checksum": "d4f7f9ab07ce468fedf64c656200ebed14fc26703488a78b35967d90c09a75ed",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3038_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3038_1536x2048.jpg",
+    "checksum": "13e60eab1836aa2161f3a3af11878f1db39bcb5f128fe858c911251c90de6ff3",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3039_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3039_1536x2048.jpg",
+    "checksum": "efaaeb45442645ca47161d6d5d6bef8b9dcb7d1cb6e8221ac5a9968528c2dd9e",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3040_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3040_1536x2048.jpg",
+    "checksum": "1655db4198d0d985798a1fdb206b16394e7c5c1804adf36bbe316bf0280974b6",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3041_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3041_1536x2048.jpg",
+    "checksum": "5c506a43d76371239ff4b05c521e048c5867fe036730ad393624beefadc8def3",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3042_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3042_1536x2048.jpg",
+    "checksum": "90c1e185e5bf5a097b15b869a2029365a7bd4ff016ae1ba93a02de6f62194410",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3043_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3043_1536x2048.jpg",
+    "checksum": "56689ac1051923485f45ce7b21e7202f063636d8933a7a5720696228d1222242",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3052_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3052_1536x2048.jpg",
+    "checksum": "50bd034d39b07c9732385a5ef04371dc381ab7cc4d3fb9ffb8289a4fb14037aa",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3053_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3053_1536x2048.jpg",
+    "checksum": "9fb0e170b1c93b2987e64394f1af2e5eb3752dd610e56acad4be4c39f367287c",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3054_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3054_1536x2048.jpg",
+    "checksum": "9f5b80c30ce37d6bdfd1c222ee7e2a1bbb38e8e1aec4c5d5290016f03a07c7f5",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3055_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3055_1536x2048.jpg",
+    "checksum": "0d484b1c83db80c032c80ccf01ae8f1cce1069031c3671682724a740e5672f7a",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3057_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3057_1536x2048.jpg",
+    "checksum": "210aa0cc8526010d592d8cbbabdaec40149943d2bce0d68e0cc3db42e7fd6217",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3056_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3056_1536x2048.jpg",
+    "checksum": "b6e6743414d2780f345f277730c43fe4361ad82969a8ec83f806770981767330",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3023_1365x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3023_1365x2048.jpg",
+    "checksum": "7198985219a0bf73dcbbe2ed163dfe61e88f340c47c3a9d813dc4c0e0396374f",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3024_1333x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3024_1333x2048.jpg",
+    "checksum": "56cda1840dffc4854540fdadec07dd5f2626882f31e190a95338d39875f70450",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3025_1437x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3025_1437x2048.jpg",
+    "checksum": "835ddbd4c426806929505e897783618e0b43e8c3d948db0acfa4d1935c2073b4",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3026_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3026_1536x2048.jpg",
+    "checksum": "03cc0cc2f4ae3609ecd3750967e993330f09fd6feff67da97701ffaa61fc001a",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3030_1659x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3030_1659x2048.jpg",
+    "checksum": "d03a090a0f22ac1983821bef6f7189e6f56f7e90e7d562c4a6f51431997f1411",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3031_1566x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3031_1566x2048.jpg",
+    "checksum": "dcb71e4301bdac159fc8b69b2e21547954930a5a36977b00351dac8d56f243a0",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3028_2048x1298.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3028_2048x1298.jpg",
+    "checksum": "32a31f799226a5445c07ffebb840df21a185da2f48a22e85114b58bc12c6d22e",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3029_2048x1326.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3029_2048x1326.jpg",
+    "checksum": "01f7d201b1809c5636c23d5e37cdfc57485d755c5df166a024b88eb5fe0cea80",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3049_2048x2011.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3049_2048x2011.jpg",
+    "checksum": "835cbf1f458e360674620b4a1378488427d34b6bf7c2040d0c734e26c07a0dd0",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3051_1289x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3051_1289x2048.jpg",
+    "checksum": "c85c191dadda90770a178509f2c5e1fd0e3760e0cda3936de7cfd4e2bce1362c",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/img_3290_2048x1696.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3290_2048x1696.jpg",
+    "checksum": "c08716446c4297d47ba7b249a751e5a058699d7c359633ac735aba6dc6b8c888",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/fifa/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "fifa_items.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3151_2048x1981.jpeg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3151_2048x1981.jpeg",
+    "checksum": "792bf9955109c9bfc7579af84bc4007eefa80802732b376a06e30b71eb65f2fc",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3387_1726x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3387_1726x2048.jpg",
+    "checksum": "27089176f54b070792da3ff3be17cd31d38d635bd4d8c7d54773c2948c26e7a8",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3386_1848x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3386_1848x2048.jpg",
+    "checksum": "4a0d91d98f2ade811a6302400479ab2d6b8b42569d8f573efd61b5e9c106d00a",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3400_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3400_2048x1536.jpg",
+    "checksum": "fe209e4a052c7d3077233570732ccfd4a46785f2c7952094ae0ca431b713cbb2",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3401_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3401_2048x1536.jpg",
+    "checksum": "c5feb15988395a24201caed712111f9d4834c0b43cfde2734e34d7ac8a34ad21",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3402_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3402_2048x1536.jpg",
+    "checksum": "e7f5d28235046630158bd3220e1a54186f650705b2cf17b274f8abc8274265ff",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3403_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3403_2048x1536.jpg",
+    "checksum": "ac948f691373f78c532f88995950474e360960442437abb8f58787ae1f7630ef",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3404_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3404_2048x1536.jpg",
+    "checksum": "350ae2deb6f026945c6583228f3c7f9d36e4b6abba38a65db316e7a9227c25de",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3405_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3405_2048x1536.jpg",
+    "checksum": "fe209e4a052c7d3077233570732ccfd4a46785f2c7952094ae0ca431b713cbb2",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3407_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3407_2048x1536.jpg",
+    "checksum": "e7f5d28235046630158bd3220e1a54186f650705b2cf17b274f8abc8274265ff",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3424_2048x15361.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3424_2048x15361.jpg",
+    "checksum": "2966230211e4488b73335e2b81bf7a2c74d45d17ab81399b57c126a46aacc45a",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3410_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3410_2048x1536.jpg",
+    "checksum": "74d12fe87122cd9a5efb3117336c766037a0b661572cd9072e2fc43b94897046",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3411_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3411_2048x1536.jpg",
+    "checksum": "7431d148d8e39c52e04317ced14509ba107011bbe31453f6dc5faa01834cf199",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3412_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3412_2048x1536.jpg",
+    "checksum": "6a68d76619d1a910743fb7347243a4417ffe98ca179064eefd6cc34c96abcfaa",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3414_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3414_1536x2048.jpg",
+    "checksum": "edff0d965c76001390313824a001c9160c8e736e5eb20a9a9b5223c523186bc8",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3415_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3415_1536x2048.jpg",
+    "checksum": "0fd6ff5c200e1b605b88b6ca351d907aa8114b59b137bdb7005ba949326e8c57",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3416_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3416_1536x2048.jpg",
+    "checksum": "6e66e8fe6776ae6c5bd7bed52e24e9649526894b74ec26b7abb0f6cce93c893d",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3417_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3417_1536x2048.jpg",
+    "checksum": "4496d59c1917366560650997fc53352a94155d6c609c60ce2ee4763de52c1e94",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3418_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3418_1536x2048.jpg",
+    "checksum": "11103ce8482d76d1a0bf62f00582665ac9b90dee340fc387ea87419679c72a72",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3419_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3419_1536x2048.jpg",
+    "checksum": "363ada8c63246693ab971572222f04e05eb339289f72bb6c56dfc841d49c12d1",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3420_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3420_1536x2048.jpg",
+    "checksum": "3fcd8ac09cccdbab992b14f77d59cc6dd3ed07e89d7186a181feded7d21716e5",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3421_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3421_1536x2048.jpg",
+    "checksum": "4765496a461d1a881e1766f698358282dd856ca6f8d14e283f8366d1290832b4",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3422_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3422_1536x2048.jpg",
+    "checksum": "226f2f039c260f1215d758d0789eb16828f1b71f12177af2b4006a9e71580e47",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3423_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3423_1536x2048.jpg",
+    "checksum": "6cbdbfa21e58267da8a13c97efd847ec0a7de9f24db2f62fcc58ca0a99cd977f",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3394_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3394_1536x2048.jpg",
+    "checksum": "a34809fc5787dd411fe3b5038de5f5086f07764dadc0e3d9f8fe7435050eaee1",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3395_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3395_1536x2048.jpg",
+    "checksum": "3fbfeb6ed9c898a3772d7c99431cf38cea474a65afb7e247b5386602220b8cf0",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3427_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3427_1536x2048.jpg",
+    "checksum": "20ccf72524dc5236c53149e27e3cf406d532ae51b30cb8f6440a78b1afcb77db",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3382_1536x2048.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3382_1536x2048.jpg",
+    "checksum": "6efad27fd4fe17f63a72ccdd04d53e8a6de63be2e4ff21694676bc4a0cff173b",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3396_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3396_2048x1536.jpg",
+    "checksum": "53851cc28735291d4923141e43ad2ad16655e07c20fda6862d02cd6ca475bc72",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/img_3426_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3426_2048x1536.jpg",
+    "checksum": "f3805d926fe0a4af62b8e92758d6d3ca65d0878f342c33c735c8c2b8e2ca3dfe",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/sports-equipment/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "sports_equipment.html"
+  },
+  {
+    "localPath": "source/assets/other/img_3046_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3046_2048x1536.jpg",
+    "checksum": "5dfb03937326ca0b735f8e204e490f3ea4bd01a289d431c8a6107cc520a3b9fb",
+    "sourcePage": "divers.html"
+  },
+  {
+    "localPath": "source/assets/other/img_3047_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3047_2048x1536.jpg",
+    "checksum": "549d1123b6b792de23d62b54f1c7b65aee53b813ee6dca642e1d9cd881057db3",
+    "sourcePage": "divers.html"
+  },
+  {
+    "localPath": "source/assets/other/img_3179_2048x1536.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/img_3179_2048x1536.jpg",
+    "checksum": "e2dfca1257f574dd7bf531eeb671031c7c8381728bce1277af406dddc676216b",
+    "sourcePage": "divers.html"
+  },
+  {
+    "localPath": "source/assets/other/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "divers.html"
+  },
+  {
+    "localPath": "source/assets/other/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "divers.html"
+  },
+  {
+    "localPath": "source/assets/other/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "divers.html"
+  },
+  {
+    "localPath": "source/assets/contact/pasted_image_2.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/pasted_image_2.jpg",
+    "checksum": "6ed55e534500d58078e1600bad5ce06547389d29ee9bca8ee0019b7c9c621163",
+    "sourcePage": "contact.html"
+  },
+  {
+    "localPath": "source/assets/contact/preview_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/preview_3.jpg",
+    "checksum": "78a2c9c68633e3cfd1fdc703c26d1f11867e3bd68575f35f3525cf8bcd1d77d5",
+    "sourcePage": "contact.html"
+  },
+  {
+    "localPath": "source/assets/contact/return.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/return.jpg",
+    "checksum": "2118a71910aed200502accd45a18617f04c00d3b4f69e520a3249f77045a4da8",
+    "sourcePage": "contact.html"
+  },
+  {
+    "localPath": "source/assets/contact/next_3.jpg",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/next_3.jpg",
+    "checksum": "af05500d94a4242541860702f385e064894b686308b9ad86f2180cf3d75bd553",
+    "sourcePage": "contact.html"
+  },
+  {
+    "localPath": "source/assets/contact/qr___code_formula_1___collection.png",
+    "sourceUrl": "https://www.top-world-cup-collection.ch/rc_images/qr___code_formula_1___collection.png",
+    "checksum": "356456ca40b057150dbc73287d954d9e68e69d6244f247d88a7b55de1295d34f",
+    "sourcePage": "contact.html"
+  }
+]

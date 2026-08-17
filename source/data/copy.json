@@ -1,0 +1,439 @@
+{
+  "rule": "Only strings that appear on the live site HTML. Do not add.",
+  "entries": [
+    {
+      "text": "Top World - Cup - Collection",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "Please note, that you can find the information about the items in the sales documentation (PDF – Sales Document / Verkauf / Sale / Vente / Venta). If you have any questions, please do not hesitate to contact us.",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "Olympic Games 1924 Paris",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "Olympic Games 1938 Amsterdam",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "World Cup 1930 Uruguay",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "World Cup 1934 Italy",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "World Cup 1938 France",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "World Cup 1950 Brasil",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "World Cup 1954 Switzerland",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "World Cup 1958 Sweden",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "World Cup 1962 Chile",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "World Cup 1966 England",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "World Cup 1970 Mexico",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "World Cup 1974 Germany",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "World Cup 1978 Argentina",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "World Cup 1982 Spain",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "World Cup 1986 Mexico",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "World Cup 1990 Italy",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "World Cup 1994 USA",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "World Cup 1998 France",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "World Cup 2002 Korea / Japan",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "World Cup 2006 Germany",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "World Cup 2010 Sauth Africa",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "World Cup 2014 Brasil",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "World Cup 2018 Russia",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "World Cup 2022 Qatar",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "World Cup 2026 Canada / USA / Mexico",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "Aotographs / pictures",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "Information boards",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "FIFA official Items",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "Sports equipement",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "Divers",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "Contact",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "Visit also:",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "Formula 1 - Collection",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "Background : Image by Starline on Magnific",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/index.html",
+      "sourcePage": "index.html",
+      "kind": "home",
+      "year": null
+    },
+    {
+      "text": "1924 Olympic Games Paris",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/1924.html",
+      "sourcePage": "1924.html",
+      "kind": "olympic",
+      "year": 1924
+    },
+    {
+      "text": "Olympic Games 1928 Amsterdam",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/1928.html",
+      "sourcePage": "1928.html",
+      "kind": "olympic",
+      "year": 1928
+    },
+    {
+      "text": "World Cup 1966 Emgland",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/1966.html",
+      "sourcePage": "1966.html",
+      "kind": "world-cup",
+      "year": 1966
+    },
+    {
+      "text": "World Cup 2002 Korea",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/2002.html",
+      "sourcePage": "2002.html",
+      "kind": "world-cup",
+      "year": 2002
+    },
+    {
+      "text": "No Items aivable for this World Cup.",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/2026.html",
+      "sourcePage": "2026.html",
+      "kind": "world-cup",
+      "year": 2026
+    },
+    {
+      "text": "Autographes + pictures",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/autographs.html",
+      "sourcePage": "autographs.html",
+      "kind": "collection",
+      "year": null
+    },
+    {
+      "text": "More original autographs in the file \"Information Boards\"",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/autographs.html",
+      "sourcePage": "autographs.html",
+      "kind": "collection",
+      "year": null
+    },
+    {
+      "text": "Fifa official items",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/fifa_items.html",
+      "sourcePage": "fifa_items.html",
+      "kind": "collection",
+      "year": null
+    },
+    {
+      "text": "Sports equipement (ball, shoes etc.)",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/sports_equipment.html",
+      "sourcePage": "sports_equipment.html",
+      "kind": "collection",
+      "year": null
+    },
+    {
+      "text": "Collection Football World - Cup 1930 - 2022",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/contact.html",
+      "sourcePage": "contact.html",
+      "kind": "contact",
+      "year": null
+    },
+    {
+      "text": "Mr.",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/contact.html",
+      "sourcePage": "contact.html",
+      "kind": "contact",
+      "year": null
+    },
+    {
+      "text": "Thomas Paul Käppeli",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/contact.html",
+      "sourcePage": "contact.html",
+      "kind": "contact",
+      "year": null
+    },
+    {
+      "text": "Grundbachstrasse 29",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/contact.html",
+      "sourcePage": "contact.html",
+      "kind": "contact",
+      "year": null
+    },
+    {
+      "text": "3665 Wattenwil",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/contact.html",
+      "sourcePage": "contact.html",
+      "kind": "contact",
+      "year": null
+    },
+    {
+      "text": "Phone:",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/contact.html",
+      "sourcePage": "contact.html",
+      "kind": "contact",
+      "year": null
+    },
+    {
+      "text": "+41 (0)79 340 93 63",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/contact.html",
+      "sourcePage": "contact.html",
+      "kind": "contact",
+      "year": null
+    },
+    {
+      "text": "E-Mail:",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/contact.html",
+      "sourcePage": "contact.html",
+      "kind": "contact",
+      "year": null
+    },
+    {
+      "text": "tk@Top-World-Cup-Collection.ch",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/contact.html",
+      "sourcePage": "contact.html",
+      "kind": "contact",
+      "year": null
+    },
+    {
+      "text": "Norbert Kaeser",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/contact.html",
+      "sourcePage": "contact.html",
+      "kind": "contact",
+      "year": null
+    },
+    {
+      "text": "Kaisereggstrasse 10",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/contact.html",
+      "sourcePage": "contact.html",
+      "kind": "contact",
+      "year": null
+    },
+    {
+      "text": "3185 Schmitten",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/contact.html",
+      "sourcePage": "contact.html",
+      "kind": "contact",
+      "year": null
+    },
+    {
+      "text": "+41 (o)78 641 34 57",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/contact.html",
+      "sourcePage": "contact.html",
+      "kind": "contact",
+      "year": null
+    },
+    {
+      "text": "nk@Top-World-Cup-Collection.ch",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/contact.html",
+      "sourcePage": "contact.html",
+      "kind": "contact",
+      "year": null
+    },
+    {
+      "text": "More informations and pictures about the collection:",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/contact.html",
+      "sourcePage": "contact.html",
+      "kind": "contact",
+      "year": null
+    },
+    {
+      "text": "http://www.Top-World-Cup-Collection.ch",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/contact.html",
+      "sourcePage": "contact.html",
+      "kind": "contact",
+      "year": null
+    },
+    {
+      "text": "Visit also: Formula 1 - Collection",
+      "sourceUrl": "https://www.top-world-cup-collection.ch/contact.html",
+      "sourcePage": "contact.html",
+      "kind": "contact",
+      "year": null
+    }
+  ]
+}
