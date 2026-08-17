@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import html
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -15,14 +16,14 @@ INV = json.loads((ROOT / "source" / "data" / "inventory.json").read_text(encodin
 OUT = ROOT / "exhibition"
 FONTS = (
     "https://fonts.googleapis.com/css2?"
-    "family=Fraunces:ital,opsz,wght@0,9..144,500;1,9..144,500&"
-    "family=IBM+Plex+Sans:wght@400;500;600&"
-    "family=Source+Serif+4:opsz,wght@8..60,400;8..60,500"
+    "family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&"
+    "family=Outfit:wght@400;500;600"
     "&display=swap"
 )
 
 NAV = [
-    ("Collection", "archive.html"),
+    ("The collection", "archive.html"),
+    ("Timeline", "index.html#timeline"),
     ("Sale", "sale.html"),
     ("Contact", "contact.html"),
 ]
@@ -37,11 +38,15 @@ ERA_CLASS = {
 
 SOURCE_COPY = {
     "site_title": "Top World - Cup - Collection",
+    "span": "1930 – 2022",
+    "olympics_line": "including Olympic Games 1924 / 1928",
     "sales_note": (
         "Please note, that you can find the information about the items in the "
         "sales documentation (PDF – Sales Document / Verkauf / Sale / Vente / Venta). "
         "If you have any questions, please do not hesitate to contact us."
     ),
+    "pdf_by": "by Thomas Käppeli",
+    "pdf_highlights": "The highlights of the collection",
 }
 
 
@@ -51,7 +56,13 @@ def esc(value: object) -> str:
 
 def chapter_heading(page: dict) -> str:
     for text in page.get("bodyCopy") or []:
-        if text.startswith("World Cup") or text.startswith("Olympic Games"):
+        if (
+            text.startswith("World Cup")
+            or text.startswith("Olympic Games")
+            or "Olympic Games" in text
+            or text.startswith("World Cup")
+            or re.match(r"^\d{4}\s+(Olympic Games|World Cup)", text)
+        ):
             return text
         if text.startswith("Aotographs") or text.startswith("Autographs"):
             return text
@@ -137,6 +148,16 @@ def document(title: str, body: str, prefix: str, era: str = "", current: str = "
 """
 
 
+def host_name(page: dict) -> str:
+    import re
+
+    heading = chapter_heading(page)
+    heading = re.sub(r"^\d{4}\s*", "", heading)
+    heading = re.sub(r"^(Olympic Games|World Cup)\s*", "", heading, flags=re.I)
+    heading = re.sub(r"^\d{4}\s*", "", heading)
+    return heading.strip() or chapter_heading(page)
+
+
 def mast(prefix: str, current: str) -> str:
     links = []
     for label, href in NAV:
@@ -150,18 +171,32 @@ def mast(prefix: str, current: str) -> str:
 
 def timeline(prefix: str, current_year: int | None = None) -> str:
     items = []
-    years = tournament_pages()
     prev_year = None
-    for page in years:
+    for page in tournament_pages():
         year = page.get("year")
         if prev_year == 1938 and year == 1950:
             items.append('<span class="gap" aria-hidden="true"></span>')
         href = prefix + chapter_href(page)
         cur = ' aria-current="page"' if year == current_year else ""
         label = str(year) if year else page["folder"]
-        items.append(f'<a href="{href}"{cur}>{esc(label)}</a>')
+        host = host_name(page)
+        items.append(
+            f'<a href="{href}"{cur}><span class="y">{esc(label)}</span>'
+            f'<span class="h">{esc(host)}</span></a>'
+        )
         prev_year = year
-    return f'<div class="timeline-wrap"><nav class="timeline" aria-label="Years">{"".join(items)}</nav></div>'
+    return (
+        f'<div class="timeline-wrap" id="timeline">'
+        f'<p class="timeline-kicker">{esc(SOURCE_COPY["span"])}</p>'
+        f'<nav class="timeline" aria-label="Years">{"".join(items)}</nav></div>'
+    )
+
+
+def foot(prefix: str) -> str:
+    return (
+        f'<footer class="site-foot">{esc(SOURCE_COPY["site_title"])} · '
+        f'{esc(SOURCE_COPY["span"])}</footer>'
+    )
 
 
 def viewer() -> str:
@@ -195,35 +230,90 @@ def gallery_html(assets: list[dict], heading: str, prefix: str) -> str:
     return f'<div class="gallery">{"".join(cells)}</div>'
 
 
+def collage_html(assets: list[dict], heading: str, prefix: str, limit: int = 5) -> str:
+    chosen = assets[:limit]
+    if not chosen:
+        return ""
+    cells = []
+    for i, asset in enumerate(chosen):
+        src = prefix + media_src(asset)
+        cls = "tall" if i == 0 else ("wide" if i == 4 else "")
+        cells.append(
+            f'<a class="{cls}" href="{esc(src)}" data-object data-full="{esc(src)}" '
+            f'data-alt="" data-meta="{esc(heading)}">'
+            f'<img src="{esc(src)}" alt="" loading="{"eager" if i < 2 else "lazy"}"></a>'
+        )
+    return f'<div class="collage">{"".join(cells)}</div>'
+
+
 def write_home() -> None:
-    pages = tournament_pages()
-    uruguay = next(p for p in pages if p.get("year") == 1930)
-    hero_assets = page_assets(uruguay["file"])
-    hero_assets = sorted(
-        hero_assets,
+    uruguay = next(p for p in tournament_pages() if p.get("year") == 1930)
+    u_assets = page_assets(uruguay["file"])
+    hero = sorted(
+        u_assets,
         key=lambda a: (a.get("width") or 0) * (a.get("height") or 0),
         reverse=True,
+    )[0]
+    mosaic = []
+    for year in (1930, 1954, 1966, 1970, 1990, 2022, None):
+        if year is None:
+            pages = collection_pages()
+        else:
+            pages = [p for p in tournament_pages() if p.get("year") == year]
+        for page in pages[:1]:
+            assets = page_assets(page["file"])
+            if assets:
+                mosaic.append((page, assets[0]))
+            if len(mosaic) >= 8:
+                break
+        if len(mosaic) >= 8:
+            break
+    mosaic_html = "".join(
+        f'<a href="{chapter_href(page)}"><img src="{esc(media_src(asset))}" alt=""></a>'
+        for page, asset in mosaic
     )
-    hero = hero_assets[0]
-    hero_src = media_src(hero)
     body = f"""<div class="shell">
 {mast("", "index.html")}
-{timeline("")}
 <section class="hero">
   <figure class="hero-figure">
-    <img src="{esc(hero_src)}" alt="" width="{hero.get("width") or ""}" height="{hero.get("height") or ""}">
+    <img src="{esc(media_src(hero))}" alt="" width="{hero.get("width") or ""}" height="{hero.get("height") or ""}">
   </figure>
   <div class="hero-copy">
+    <p class="eyebrow">{esc(SOURCE_COPY["span"])} · {esc(SOURCE_COPY["olympics_line"])}</p>
     <h1>{esc(SOURCE_COPY["site_title"])}</h1>
-    <p class="lede">{esc(SOURCE_COPY["sales_note"])}</p>
     <div class="actions">
-      <a class="action" href="world-cups/1930-uruguay.html">1930 Uruguay</a>
-      <a class="action" href="archive.html">Collection</a>
-      <a class="action" href="sale.html">Sale</a>
+      <a class="btn" href="world-cups/1930-uruguay.html">1930 Uruguay</a>
+      <a class="btn-ghost" href="archive.html">The collection</a>
     </div>
   </div>
 </section>
-</div>"""
+{timeline("")}
+<section class="band-cream home-block">
+  <div class="chapter" style="padding:0">
+    <header class="chapter-head">
+      <p class="chapter-kicker">World Cup 1930 Uruguay</p>
+      <p class="chapter-year">1930</p>
+      <p class="chapter-host">Uruguay</p>
+    </header>
+    {collage_html(u_assets, chapter_heading(uruguay), "", 5)}
+    <p style="margin-top:1.4rem"><a class="btn" href="world-cups/1930-uruguay.html">1930 Uruguay</a></p>
+  </div>
+</section>
+<section class="band-navy home-block">
+  <p class="eyebrow">The collection</p>
+  <h2>{esc(SOURCE_COPY["site_title"])}</h2>
+  <div class="mosaic">{mosaic_html}</div>
+  <p style="margin-top:1.4rem"><a class="btn" href="archive.html">The collection</a></p>
+</section>
+<section class="band-cream home-block">
+  <p class="attr">Sales documentation</p>
+  <h2>Sale</h2>
+  <p style="max-width:36rem">{esc(SOURCE_COPY["sales_note"])}</p>
+  <p><a class="btn" href="sale.html">Sale</a></p>
+</section>
+{foot("")}
+</div>
+{viewer()}"""
     (OUT / "index.html").write_text(
         document(SOURCE_COPY["site_title"], body, "", current="index.html"),
         encoding="utf-8",
@@ -255,13 +345,16 @@ def write_chapter(page: dict) -> None:
 {timeline(rel, year)}
 <article class="chapter">
   <header class="chapter-head">
+    <p class="chapter-kicker">{esc(heading)}</p>
     <p class="chapter-year">{esc(year_label)}</p>
     <p class="chapter-host">{esc(host)}</p>
   </header>
-  {gallery_html(assets, heading, rel)}
+  {collage_html(assets, heading, rel, 5) if len(assets) >= 3 else gallery_html(assets, heading, rel)}
+  {gallery_html(assets[5:], heading, rel) if len(assets) > 5 else ""}
 </article>
 </div>
-{viewer()}"""
+{viewer()}
+{foot(rel)}"""
     dest.write_text(
         document(f"{heading} · {SOURCE_COPY['site_title']}", body, rel, era=era),
         encoding="utf-8",
@@ -297,7 +390,8 @@ def write_archive() -> None:
 <div class="filter" id="archive-filter">{''.join(buttons)}</div>
 <div class="archive-grid">{''.join(cards)}</div>
 </div>
-{viewer()}"""
+{viewer()}
+{foot("")}"""
     (OUT / "archive.html").write_text(
         document(f"Collection · {SOURCE_COPY['site_title']}", body, ""),
         encoding="utf-8",
@@ -318,7 +412,8 @@ def write_sale() -> None:
   <p>{esc(SOURCE_COPY["sales_note"])}</p>
   <ul class="docs">{''.join(docs)}</ul>
 </article>
-</div>"""
+</div>
+{foot("")}"""
     (OUT / "sale.html").write_text(
         document(f"Sale · {SOURCE_COPY['site_title']}", body, ""),
         encoding="utf-8",
@@ -334,7 +429,8 @@ def write_contact() -> None:
   <h1>Contact</h1>
   {paras}
 </article>
-</div>"""
+</div>
+{foot("")}"""
     (OUT / "contact.html").write_text(
         document(f"Contact · {SOURCE_COPY['site_title']}", body, ""),
         encoding="utf-8",
