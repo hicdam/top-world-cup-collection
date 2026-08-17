@@ -375,6 +375,124 @@ body.contents-open { overflow: hidden; }
 .pager a { text-decoration: none; color: var(--rule); }
 .pager-next { text-align: right; }
 
+.walk-page {
+  transition: background-color 1.1s ease, color 1.1s ease;
+}
+
+.time {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  margin: 0;
+  padding: 0.35rem var(--pad);
+  font-family: var(--grotesk);
+  font-size: 0.68rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--mute);
+  background: color-mix(in srgb, var(--paper) 88%, transparent);
+  text-align: center;
+}
+
+.walk {
+  width: min(100%, 44rem);
+  margin: 0 auto;
+  padding: 0 var(--pad) 5rem;
+}
+
+.beat {
+  padding: 18vh 0 14vh;
+  scroll-margin-top: 2.6rem;
+}
+
+.year-mark {
+  font-family: var(--grotesk);
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  color: var(--rule);
+  margin: 0 0 1.2rem;
+}
+
+.object-title {
+  font-size: 1.15rem;
+  line-height: 1.25;
+  margin: 1rem 0 0.3rem;
+}
+
+.object-copy { margin-top: 1rem; max-width: 32rem; }
+
+.beat-solo .figure img {
+  max-height: 78vh;
+}
+
+.beat-word {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.beat-word p {
+  font-size: 1.25rem;
+  line-height: 1.45;
+  max-width: 28rem;
+  margin: 0;
+}
+
+.beat-empty {
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+}
+
+.beat-empty .year-mark {
+  font-size: clamp(4rem, 22vw, 8rem);
+  letter-spacing: -0.04em;
+  color: var(--ink);
+  margin: 0;
+}
+
+.pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.6rem;
+  align-items: end;
+}
+
+.stack .figure { margin-top: 2.2rem; }
+
+.strip {
+  display: flex;
+  gap: 0.7rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  margin-top: 1.2rem;
+  padding-bottom: 0.4rem;
+}
+
+.strip .figure {
+  flex: 0 0 72%;
+  scroll-snap-align: start;
+  margin-top: 0;
+}
+
+.strip .figure img {
+  max-height: 62vh;
+  width: 100%;
+  object-fit: contain;
+}
+
+.beat-hero .figure:first-of-type img { max-height: 82vh; }
+
+.beat-close { padding-top: 8vh; }
+
+@media (max-width: 640px) {
+  .pair { grid-template-columns: 1fr; }
+  .strip .figure { flex-basis: 84%; }
+}
+
 .era-1930 { --paper: #f4e6d4; --rule: #8a2a24; --ink: #1a0e0c; }
 .era-1930 h1 { font-style: italic; }
 .era-1930 .ornament {

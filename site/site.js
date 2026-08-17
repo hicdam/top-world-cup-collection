@@ -28,6 +28,39 @@
     if (event.key === "Escape") closeContents();
   });
 
+  var beats = document.querySelectorAll(".beat");
+  var time = document.getElementById("time");
+  if (beats.length && "IntersectionObserver" in window) {
+    var current = null;
+    var observer = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          if (!entry.isIntersecting) return;
+          current = entry.target;
+          var paper = current.getAttribute("data-paper");
+          var rule = current.getAttribute("data-rule");
+          var ink = current.getAttribute("data-ink");
+          var year = current.getAttribute("data-year");
+          if (paper) document.body.style.setProperty("--paper", paper);
+          if (rule) document.body.style.setProperty("--rule", rule);
+          if (ink) document.body.style.setProperty("--ink", ink);
+          if (time) {
+            if (year) {
+              time.hidden = false;
+              time.textContent = year;
+            } else {
+              time.hidden = true;
+            }
+          }
+        });
+      },
+      { rootMargin: "-35% 0px -45% 0px", threshold: 0.01 }
+    );
+    beats.forEach(function (beat) {
+      observer.observe(beat);
+    });
+  }
+
   var form = document.getElementById("enquire");
   if (!form) return;
 

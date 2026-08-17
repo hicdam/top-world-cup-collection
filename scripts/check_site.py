@@ -56,7 +56,10 @@ def main() -> None:
 
     collection = (SITE / "collection.html").read_text(encoding="utf-8")
     for issue in data["issues"]:
-        if f'{issue["slug"]}.html' not in collection:
+        if (
+            f'{issue["slug"]}.html' not in collection
+            and f'#y-{issue["slug"]}' not in collection
+        ):
             fail(f"collection index missing {issue['slug']}")
         page = SITE / f"{issue['slug']}.html"
         if not page.exists():
@@ -76,10 +79,12 @@ def main() -> None:
     contact = (SITE / "contact.html").read_text(encoding="utf-8")
     if SALE not in contact:
         fail("contact missing sale-as-a-whole sentence")
-    if SALE in home:
-        fail("home must not contain sale-as-a-whole sentence")
+    if SALE not in home:
+        fail("walk missing sale-as-a-whole sentence")
     if "Jules Rimet Cup of Pedro Petrone" not in home:
         fail("home missing Petrone title")
+    if 'id="y-1930"' not in home or 'id="y-2026"' not in home:
+        fail("walk missing year anchors")
     if "data-contents-open" not in home:
         fail("home missing Index control")
     if "year-grid" not in collection:

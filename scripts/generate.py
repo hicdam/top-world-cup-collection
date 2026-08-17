@@ -55,9 +55,11 @@ def contents_panel(data: dict, prefix: str) -> str:
             rooms.append(f'<li><a href="{href}">{esc(issue["title"])}</a></li>')
         else:
             label = issue["year"] or issue["title"]
-            years.append(f'<li><a href="{href}">{esc(label)}</a></li>')
+            years.append(
+                f'<li><a href="{prefix}index.html#y-{esc(issue["slug"])}">{esc(label)}</a></li>'
+            )
     pieces = "".join(
-        f'<li><a href="{prefix}piece/{esc(p["slug"])}.html">{esc(p["title"])}</a></li>'
+        f'<li><a href="{prefix}index.html#p-{esc(p["slug"])}">{esc(p["title"])}</a></li>'
         for p in data["pieces"]
     )
     return f"""<div class="contents" id="contents" hidden>
@@ -149,31 +151,252 @@ def notes_html(notes: list[str]) -> str:
     return f'<div class="prose">{paras}</div>'
 
 
-def write_home(data: dict) -> None:
-    cover = piece_by_id(data, data["coverPieceId"])
-    issue = issue_by_slug(data, cover["issue"])
-    supporting = [piece_by_id(data, pid) for pid in data["supportingPieceIds"]]
-    also = "".join(
-        f'<li><a href="piece/{esc(p["slug"])}.html">{esc(p["title"])}</a></li>'
-        for p in supporting
+def issue_images(data: dict, issue: dict) -> list[dict]:
+    images: list[dict] = []
+    seen: set[str] = set()
+    if issue.get("leadPieceId"):
+        piece = piece_by_id(data, issue["leadPieceId"])
+        images.append(
+            {
+                "src": piece["image"],
+                "alt": piece["title"],
+                "title": piece["title"],
+                "dates": piece.get("dates") or "",
+                "notes": piece.get("notes") or [],
+                "anchor": f"p-{piece['slug']}",
+            }
+        )
+        seen.add(piece["image"])
+    for name in issue.get("sequence") or []:
+        if name in seen:
+            continue
+        images.append(
+            {
+                "src": name,
+                "alt": issue["title"],
+                "title": "",
+                "dates": "",
+                "notes": [],
+                "anchor": "",
+            }
+        )
+        seen.add(name)
+    if not images and issue.get("thumb"):
+        images.append(
+            {
+                "src": issue["thumb"],
+                "alt": issue["title"],
+                "title": "",
+                "dates": "",
+                "notes": [],
+                "anchor": "",
+            }
+        )
+    return images
+
+
+def layout_for(issue: dict, images: list[dict]) -> str:
+    if issue["slug"] == "2026":
+        return "empty"
+    if issue["slug"] == "1930":
+        return "hero"
+    if issue["slug"] == "1954":
+        return "stack"
+    if len(images) >= 3:
+        return "strip"
+    if len(images) == 2:
+        return "pair"
+    return "solo"
+
+
+PAPER_BY_ERA = {
+    "1930": ("#f4e6d4", "#8a2a24", "#1a0e0c"),
+    "1954": ("#f7ebe6", "#c8102e", "#1a1214"),
+    "fifa": ("#efe6d4", "#1c3a6b", "#12151c"),
+}
+
+
+def era_attrs(issue: dict) -> str:
+    chips = issue.get("chips") or ["#9a2b24", "#14110e", "#f3eee4"]
+    era = issue.get("era") or ""
+    if era in PAPER_BY_ERA:
+        paper, rule, ink = PAPER_BY_ERA[era]
+    else:
+        paper, rule, ink = "#f3eee4", chips[0], "#14110e"
+    key = era or issue["slug"]
+    return (
+        f'data-era="{esc(key)}" data-paper="{esc(paper)}" '
+        f'data-rule="{esc(rule)}" data-ink="{esc(ink)}" '
+        f'data-year="{esc(issue.get("year") or "")}"'
     )
-    dates = f'<p class="dates">{esc(cover["dates"])}</p>' if cover.get("dates") else ""
-    body = f"""{mast(data, "", "home")}
-<main class="wrap">
-  <p class="kicker">{esc(issue["title"])}</p>
-  <div class="ornament" aria-hidden="true"></div>
-  <h1>{esc(cover["title"])}</h1>
+
+
+def img_tag(item: dict, eager: bool = False, with_id: bool = True) -> str:
+    loading = "eager" if eager else "lazy"
+    extra_id = (
+        f' id="{esc(item["anchor"])}"' if with_id and item.get("anchor") else ""
+    )
+    return (
+        f'<figure class="figure"{extra_id}>'
+        f'<img src="images/{esc(item["src"])}" alt="{esc(item["alt"])}" loading="{loading}">'
+        f"</figure>"
+    )
+
+
+def beat_word(text: str, year: str = "") -> str:
+    return f"""<section class="beat beat-word" data-paper="#f3eee4" data-rule="#9a2b24" data-ink="#14110e" data-year="{esc(year)}">
+  <p>{esc(text)}</p>
+</section>"""
+
+
+def beat_object(item: dict, year: str, paper: str, rule: str, ink: str) -> str:
+    title = f'<p class="object-title">{esc(item["title"])}</p>' if item.get("title") else ""
+    dates = f'<p class="dates">{esc(item["dates"])}</p>' if item.get("dates") else ""
+    return f"""<section class="beat beat-solo" id="{esc(item.get("anchor") or "")}" data-paper="{esc(paper)}" data-rule="{esc(rule)}" data-ink="{esc(ink)}" data-year="{esc(year)}">
+  <p class="year-mark">{esc(year)}</p>
+  {img_tag(item, eager=True, with_id=False)}
+  {title}
   {dates}
-  {notes_html(cover.get("notes") or [])}
-  {figure("", cover["image"], cover["title"])}
-  <section class="also">
-    <p class="kicker">{esc(data["alsoInThisIssue"])}</p>
-    <ul class="also-list">{also}</ul>
-  </section>
+  {notes_html(item.get("notes") or [])}
+</section>"""
+
+
+def beat_year(data: dict, issue: dict) -> str:
+    images = issue_images(data, issue)
+    layout = layout_for(issue, images)
+    attrs = era_attrs(issue)
+    year = issue.get("year") or ""
+    mark = f'<p class="year-mark">{esc(year)}</p>' if year else ""
+    if layout == "empty":
+        return f"""<section class="beat beat-empty" id="y-{esc(issue["slug"])}" {attrs}>
+  {mark}
+</section>"""
+
+    frames = []
+    named = ""
+    for i, item in enumerate(images):
+        frames.append(img_tag(item, eager=(issue["slug"] in {"1930", "1954"} and i == 0)))
+        if item.get("title") and not named:
+            dates = f'<p class="dates">{esc(item["dates"])}</p>' if item.get("dates") else ""
+            named = (
+                f'<div class="object-copy">'
+                f'<p class="object-title">{esc(item["title"])}</p>'
+                f"{dates}"
+                f'{notes_html(item.get("notes") or [])}'
+                f"</div>"
+            )
+
+    if layout == "hero" and images:
+        rest = "".join(frames[1:])
+        return f"""<section class="beat beat-hero" id="y-{esc(issue["slug"])}" {attrs}>
+  {mark}
+  {frames[0]}
+  {named}
+  <div class="strip">{rest}</div>
+</section>"""
+    if layout == "pair":
+        return f"""<section class="beat beat-pair" id="y-{esc(issue["slug"])}" {attrs}>
+  {mark}
+  <div class="pair">{''.join(frames)}</div>
+</section>"""
+    if layout == "stack":
+        first = frames[0] if frames else ""
+        rest = "".join(frames[1:])
+        return f"""<section class="beat beat-stack" id="y-{esc(issue["slug"])}" {attrs}>
+  {mark}
+  {first}
+  {named}
+  <div class="stack">{rest}</div>
+</section>"""
+    if layout == "strip":
+        return f"""<section class="beat beat-strip" id="y-{esc(issue["slug"])}" {attrs}>
+  {mark}
+  {named}
+  <div class="strip">{''.join(frames)}</div>
+</section>"""
+    return f"""<section class="beat beat-solo" id="y-{esc(issue["slug"])}" {attrs}>
+  {mark}
+  {''.join(frames)}
+  {named}
+</section>"""
+
+
+def write_home(data: dict) -> None:
+    pin = piece_by_id(data, "fifa-1904")
+    pin_item = {
+        "src": pin["image"],
+        "alt": pin["title"],
+        "title": pin["title"],
+        "dates": "",
+        "notes": [],
+        "anchor": "p-fifa-1904",
+    }
+    beats = [
+        beat_object(pin_item, "1904", "#efe6d4", "#0e1624", "#12151c"),
+        beat_word(data["copy"]["introduction"][0], "1904"),
+        beat_word(data["copy"]["information"][1], "1924"),
+    ]
+    after = {
+        "1930": [
+            beat_word(data["copy"]["information"][2], "1930"),
+            beat_word(data["copy"]["information"][3], "1930"),
+        ],
+        "1934": [beat_word(data["copy"]["information"][4], "1934")],
+        "2018": [beat_word(data["copy"]["introduction"][1], "2018")],
+    }
+    for issue in data["issues"]:
+        if issue["kind"] == "special":
+            continue
+        beats.append(beat_year(data, issue))
+        beats.extend(after.get(issue["slug"], []))
+
+    beats.extend(
+        [
+            beat_word(data["copy"]["introduction"][2], "2026"),
+            beat_word(data["copy"]["introduction"][3], "2026"),
+            beat_word(data["copy"]["information"][0], "2026"),
+            beat_word(data["copy"]["viewing"], "2026"),
+        ]
+    )
+
+    people = []
+    for person in data["contacts"]:
+        addr = "<br>".join(esc(line) for line in person["address"])
+        people.append(
+            f'<div class="person"><strong>{esc(person["name"])}</strong><br>{addr}<br>'
+            f"{esc(person['phone'])}<br>"
+            f'<a href="mailto:{esc(person["email"])}">{esc(person["email"])}</a></div>'
+        )
+    form = data["form"]
+    emails = ", ".join(p["email"] for p in data["contacts"])
+    close = f"""<section class="beat beat-close" data-paper="#f3eee4" data-rule="#9a2b24" data-ink="#14110e" data-year="">
+  <div class="people">{''.join(people)}</div>
+  <form id="enquire" novalidate>
+    <label for="name">{esc(form["name"])}</label>
+    <input id="name" name="name" autocomplete="name" required>
+    <label for="email">{esc(form["email"])}</label>
+    <input id="email" name="email" type="email" autocomplete="email" required>
+    <label for="piece">{esc(form["piece"])}</label>
+    <input id="piece" name="piece">
+    <label for="message">{esc(form["message"])}</label>
+    <textarea id="message" name="message" required></textarea>
+    <button class="btn" type="submit">{esc(form["send"])}</button>
+    <p class="form-error" hidden data-required="{esc(form["required"])}"></p>
+  </form>
+  <div class="form-ok" id="enquire-ok" hidden>
+    <p>{esc(form["thanks"])} {esc(emails)}.</p>
+  </div>
+</section>"""
+
+    body = f"""{mast(data, "", "home")}
+<p class="time" id="time" hidden></p>
+<main class="walk">
+{''.join(beats)}
+{close}
 </main>
 """
     (SITE / "index.html").write_text(
-        document(data["name"], f"era-{issue['era']}", "", body), encoding="utf-8"
+        document(data["name"], "walk-page", "", body), encoding="utf-8"
     )
 
 
@@ -185,9 +408,11 @@ def write_collection(data: dict) -> None:
         if issue["kind"] == "special":
             rooms.append(f'<li><a href="{href}">{esc(issue["title"])}</a></li>')
         else:
-            years.append(f'<li><a href="{href}">{esc(issue["year"])}</a></li>')
+            years.append(
+                f'<li><a href="index.html#y-{esc(issue["slug"])}">{esc(issue["year"])}</a></li>'
+            )
     pieces = "".join(
-        f'<li><a href="piece/{esc(p["slug"])}.html">{esc(p["title"])}</a></li>'
+        f'<li><a href="index.html#p-{esc(p["slug"])}">{esc(p["title"])}</a></li>'
         for p in data["pieces"]
     )
     body = f"""{mast(data, "", "collection")}
