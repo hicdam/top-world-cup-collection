@@ -30,10 +30,20 @@ NAV = [
 
 ERA_CLASS = {
     1930: "era-1930",
+    1954: "era-1930",
     1966: "era-1966",
     1970: "era-1970",
     1990: "era-1990",
     2022: "era-2022",
+}
+
+ERA_FIELD = {
+    1930: "atmosphere/era-1930.jpg",
+    1954: "atmosphere/era-1954.jpg",
+    1966: "atmosphere/era-1966.jpg",
+    1970: "atmosphere/era-1970.jpg",
+    1990: "atmosphere/era-1990.jpg",
+    2022: "atmosphere/era-2022.jpg",
 }
 
 SOURCE_COPY = {
@@ -237,23 +247,40 @@ def collage_html(assets: list[dict], heading: str, prefix: str, limit: int = 5) 
     cells = []
     for i, asset in enumerate(chosen):
         src = prefix + media_src(asset)
-        cls = "tall" if i == 0 else ("wide" if i == 4 else "")
         cells.append(
-            f'<a class="{cls}" href="{esc(src)}" data-object data-full="{esc(src)}" '
+            f'<a class="p{i}" href="{esc(src)}" data-object data-full="{esc(src)}" '
             f'data-alt="" data-meta="{esc(heading)}">'
             f'<img src="{esc(src)}" alt="" loading="{"eager" if i < 2 else "lazy"}"></a>'
         )
-    return f'<div class="collage">{"".join(cells)}</div>'
+    return f'<div class="spread-stage">{"".join(cells)}</div>'
+
+
+def spread_html(
+    assets: list[dict],
+    heading: str,
+    year_label: str,
+    host: str,
+    prefix: str,
+    field: str | None,
+) -> str:
+    field_img = (
+        f'<img class="spread-field" src="{prefix}{field}" alt="">' if field else ""
+    )
+    return f"""<section class="spread">
+  {field_img}
+  <div class="spread-copy">
+    <p class="chapter-kicker">{esc(heading)}</p>
+    <p class="chapter-year">{esc(year_label)}</p>
+    <p class="chapter-host">{esc(host)}</p>
+  </div>
+  {collage_html(assets, heading, prefix)}
+</section>"""
 
 
 def write_home() -> None:
     uruguay = next(p for p in tournament_pages() if p.get("year") == 1930)
     u_assets = page_assets(uruguay["file"])
-    hero = sorted(
-        u_assets,
-        key=lambda a: (a.get("width") or 0) * (a.get("height") or 0),
-        reverse=True,
-    )[0]
+    hero_src = "atmosphere/hero-cup.jpg"
     mosaic = []
     for year in (1930, 1954, 1966, 1970, 1990, 2022, None):
         if year is None:
@@ -275,9 +302,7 @@ def write_home() -> None:
     body = f"""<div class="shell">
 {mast("", "index.html")}
 <section class="hero">
-  <figure class="hero-figure">
-    <img src="{esc(media_src(hero))}" alt="" width="{hero.get("width") or ""}" height="{hero.get("height") or ""}">
-  </figure>
+  <img class="hero-plate" src="{esc(hero_src)}" alt="">
   <div class="hero-copy">
     <p class="eyebrow">{esc(SOURCE_COPY["span"])} · {esc(SOURCE_COPY["olympics_line"])}</p>
     <h1>{esc(SOURCE_COPY["site_title"])}</h1>
@@ -288,17 +313,8 @@ def write_home() -> None:
   </div>
 </section>
 {timeline("")}
-<section class="band-cream home-block">
-  <div class="chapter" style="padding:0">
-    <header class="chapter-head">
-      <p class="chapter-kicker">World Cup 1930 Uruguay</p>
-      <p class="chapter-year">1930</p>
-      <p class="chapter-host">Uruguay</p>
-    </header>
-    {collage_html(u_assets, chapter_heading(uruguay), "", 5)}
-    <p style="margin-top:1.4rem"><a class="btn" href="world-cups/1930-uruguay.html">1930 Uruguay</a></p>
-  </div>
-</section>
+{spread_html(u_assets, chapter_heading(uruguay), "1930", "Uruguay", "", ERA_FIELD[1930])}
+<p class="home-block" style="padding-top:0"><a class="btn" href="world-cups/1930-uruguay.html">1930 Uruguay</a></p>
 <section class="band-navy home-block">
   <p class="eyebrow">The collection</p>
   <h2>{esc(SOURCE_COPY["site_title"])}</h2>
@@ -340,16 +356,14 @@ def write_chapter(page: dict) -> None:
         if host.startswith(cut):
             host = host[len(cut) :]
             break
+    field = ERA_FIELD.get(year)
+    host = host_name(page)
+    year_label = str(year) if year else heading
     body = f"""<div class="shell">
 {mast(rel, href)}
 {timeline(rel, year)}
+{spread_html(assets, heading, year_label, host, rel, field)}
 <article class="chapter">
-  <header class="chapter-head">
-    <p class="chapter-kicker">{esc(heading)}</p>
-    <p class="chapter-year">{esc(year_label)}</p>
-    <p class="chapter-host">{esc(host)}</p>
-  </header>
-  {collage_html(assets, heading, rel, 5) if len(assets) >= 3 else gallery_html(assets, heading, rel)}
   {gallery_html(assets[5:], heading, rel) if len(assets) > 5 else ""}
 </article>
 </div>
