@@ -80,6 +80,13 @@ def main() -> None:
         fail("home must not contain sale-as-a-whole sentence")
     if "Jules Rimet Cup of Pedro Petrone" not in home:
         fail("home missing Petrone title")
+    if "data-contents-open" not in home:
+        fail("home missing Index control")
+    if "year-grid" not in collection:
+        fail("collection missing year grid")
+    issue_1954 = (SITE / "1954.html").read_text(encoding="utf-8")
+    if "1950.html" not in issue_1954 or "1958.html" not in issue_1954:
+        fail("1954 missing prev/next pager")
 
     print("ok")
 

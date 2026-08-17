@@ -8,23 +8,36 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  
+  <script src="site.js" defer></script>
 </head>
 <body>
 <header class="mast">
   <a class="wordmark" href="index.html">Top World Cup Collection</a>
   <nav class="nav">
-    <a href="collection.html" aria-current="page">Collection</a>
+    <a href="collection.html" data-contents-open>Index</a>
     <a href="contact.html">Contact</a>
   </nav>
 </header>
+<div class="contents" id="contents" hidden>
+  <div class="contents-bar">
+    <p class="kicker">Index</p>
+    <button type="button" class="contents-close" data-contents-close>Close</button>
+  </div>
+  <p class="contents-label">Years</p>
+  <ol class="year-grid"><li><a href="1924.html">1924</a></li><li><a href="1928.html">1928</a></li><li><a href="1930.html">1930</a></li><li><a href="1934.html">1934</a></li><li><a href="1938.html">1938</a></li><li><a href="1950.html">1950</a></li><li><a href="1954.html">1954</a></li><li><a href="1958.html">1958</a></li><li><a href="1962.html">1962</a></li><li><a href="1966.html">1966</a></li><li><a href="1970.html">1970</a></li><li><a href="1974.html">1974</a></li><li><a href="1978.html">1978</a></li><li><a href="1982.html">1982</a></li><li><a href="1986.html">1986</a></li><li><a href="1990.html">1990</a></li><li><a href="1994.html">1994</a></li><li><a href="1998.html">1998</a></li><li><a href="2002.html">2002</a></li><li><a href="2006.html">2006</a></li><li><a href="2010.html">2010</a></li><li><a href="2014.html">2014</a></li><li><a href="2018.html">2018</a></li><li><a href="2022.html">2022</a></li><li><a href="2026.html">2026</a></li></ol>
+  <p class="contents-label">Rooms</p>
+  <ul class="room-list"><li><a href="autographs.html">Autographs / pictures</a></li><li><a href="information-boards.html">Information boards</a></li><li><a href="fifa.html">FIFA official items</a></li><li><a href="sports-equipment.html">Sports equipment</a></li><li><a href="divers.html">Divers</a></li></ul>
+  <p class="contents-label">Pieces</p>
+  <ul class="room-list"><li><a href="piece/petrone.html">Jules Rimet Cup of Pedro Petrone</a></li><li><a href="piece/fifa-1904.html">Goldpin FIFA 1904</a></li><li><a href="piece/kocsis.html">Top Scorer Medal SANDOR KOCSIS</a></li></ul>
+  <p class="contents-label"><a href="contact.html">Contact</a></p>
+</div>
 <main class="wrap">
 
   <p class="kicker">Collection</p>
   <h1>World Cup 1990 Italy</h1>
 
 <div class="sequence"><figure class="figure"><img src="images/thumb-1990.jpg" alt="World Cup 1990 Italy"></figure></div>
-  <a class="to-collection" href="collection.html">Collection</a>
+  <nav class="pager"><a class="pager-prev" href="1986.html"><span>1986</span></a><a class="pager-next" href="1994.html"><span>1994</span></a></nav>
 </main>
 
 </body>

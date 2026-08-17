@@ -4,6 +4,11 @@
   "alsoInThisIssue": "Also in this issue",
   "nav": {
     "collection": "Collection",
+    "index": "Index",
+    "close": "Close",
+    "years": "Years",
+    "rooms": "Rooms",
+    "pieces": "Pieces",
     "contact": "Contact"
   },
   "coverPieceId": "petrone",

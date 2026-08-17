@@ -46,22 +46,74 @@ def img_src(prefix: str, name: str | None) -> str:
     return f"{prefix}images/{name}"
 
 
-def mast(data: dict, prefix: str, current: str) -> str:
-    def nav_item(key: str, href: str) -> str:
-        cur = ' aria-current="page"' if current == key else ""
-        return f'<a href="{href}"{cur}>{esc(data["nav"][key])}</a>'
+def contents_panel(data: dict, prefix: str) -> str:
+    years = []
+    rooms = []
+    for issue in data["issues"]:
+        href = f'{prefix}{issue["slug"]}.html'
+        if issue["kind"] == "special":
+            rooms.append(f'<li><a href="{href}">{esc(issue["title"])}</a></li>')
+        else:
+            label = issue["year"] or issue["title"]
+            years.append(f'<li><a href="{href}">{esc(label)}</a></li>')
+    pieces = "".join(
+        f'<li><a href="{prefix}piece/{esc(p["slug"])}.html">{esc(p["title"])}</a></li>'
+        for p in data["pieces"]
+    )
+    return f"""<div class="contents" id="contents" hidden>
+  <div class="contents-bar">
+    <p class="kicker">{esc(data["nav"]["index"])}</p>
+    <button type="button" class="contents-close" data-contents-close>{esc(data["nav"]["close"])}</button>
+  </div>
+  <p class="contents-label">{esc(data["nav"]["years"])}</p>
+  <ol class="year-grid">{''.join(years)}</ol>
+  <p class="contents-label">{esc(data["nav"]["rooms"])}</p>
+  <ul class="room-list">{''.join(rooms)}</ul>
+  <p class="contents-label">{esc(data["nav"]["pieces"])}</p>
+  <ul class="room-list">{pieces}</ul>
+  <p class="contents-label"><a href="{prefix}contact.html">{esc(data["nav"]["contact"])}</a></p>
+</div>"""
 
+
+def mast(data: dict, prefix: str, current: str) -> str:
+    contact_cur = ' aria-current="page"' if current == "contact" else ""
     return f"""<header class="mast">
   <a class="wordmark" href="{prefix}index.html">{esc(data["name"])}</a>
   <nav class="nav">
-    {nav_item("collection", prefix + "collection.html")}
-    {nav_item("contact", prefix + "contact.html")}
+    <a href="{prefix}collection.html" data-contents-open>{esc(data["nav"]["index"])}</a>
+    <a href="{prefix}contact.html"{contact_cur}>{esc(data["nav"]["contact"])}</a>
   </nav>
-</header>"""
+</header>
+{contents_panel(data, prefix)}"""
+
+
+def neighbors(data: dict, slug: str) -> tuple[dict | None, dict | None]:
+    issues = data["issues"]
+    index = next(i for i, issue in enumerate(issues) if issue["slug"] == slug)
+    prev_issue = issues[index - 1] if index > 0 else None
+    next_issue = issues[index + 1] if index + 1 < len(issues) else None
+    return prev_issue, next_issue
+
+
+def pager(data: dict, issue: dict, prefix: str) -> str:
+    prev_issue, next_issue = neighbors(data, issue["slug"])
+    prev_html = (
+        f'<a class="pager-prev" href="{prefix}{prev_issue["slug"]}.html">'
+        f'<span>{esc(prev_issue["year"] or prev_issue["title"])}</span></a>'
+        if prev_issue
+        else "<span></span>"
+    )
+    next_html = (
+        f'<a class="pager-next" href="{prefix}{next_issue["slug"]}.html">'
+        f'<span>{esc(next_issue["year"] or next_issue["title"])}</span></a>'
+        if next_issue
+        else "<span></span>"
+    )
+    return f'<nav class="pager">{prev_html}{next_html}</nav>'
 
 
 def document(title: str, body_class: str, prefix: str, body: str, extra_js: str = "") -> str:
-    js = f'<script src="{prefix}site.js" defer></script>' if extra_js else ""
+    js = f'<script src="{prefix}site.js" defer></script>'
     cls = f' class="{body_class}"' if body_class else ""
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -118,7 +170,6 @@ def write_home(data: dict) -> None:
     <p class="kicker">{esc(data["alsoInThisIssue"])}</p>
     <ul class="also-list">{also}</ul>
   </section>
-  <a class="to-collection" href="collection.html">{esc(data["nav"]["collection"])}</a>
 </main>
 """
     (SITE / "index.html").write_text(
@@ -127,28 +178,28 @@ def write_home(data: dict) -> None:
 
 
 def write_collection(data: dict) -> None:
-    rows = []
+    years = []
+    rooms = []
     for issue in data["issues"]:
-        chips = "".join(f'<i style="background:{c}"></i>' for c in issue["chips"])
-        year_label = issue["year"] if issue["year"] else ""
-        if issue.get("thumb"):
-            thumb = f'<img class="thumb" src="images/{esc(issue["thumb"])}" alt="">'
+        href = f'{issue["slug"]}.html'
+        if issue["kind"] == "special":
+            rooms.append(f'<li><a href="{href}">{esc(issue["title"])}</a></li>')
         else:
-            thumb = '<span class="thumb empty" aria-hidden="true"></span>'
-        rows.append(
-            f'<li><a href="{esc(issue["slug"])}.html">'
-            f'<span class="year">{esc(year_label)}</span>'
-            f'<span class="title">{esc(issue["title"])}</span>'
-            f'<span class="chips" aria-hidden="true">{chips}</span>'
-            f"{thumb}</a></li>"
-        )
-    # The grid is year | title | chips+thumb. Spec wanted chip + image.
-    # Rebuild rows with chips beside thumb via CSS? Keep simple: year, title+chips, thumb.
+            years.append(f'<li><a href="{href}">{esc(issue["year"])}</a></li>')
+    pieces = "".join(
+        f'<li><a href="piece/{esc(p["slug"])}.html">{esc(p["title"])}</a></li>'
+        for p in data["pieces"]
+    )
     body = f"""{mast(data, "", "collection")}
 <main class="wrap">
   <p class="kicker">{esc(data["name"])}</p>
-  <h1>{esc(data["nav"]["collection"])}</h1>
-  <ol class="index">{''.join(rows)}</ol>
+  <h1>{esc(data["nav"]["index"])}</h1>
+  <p class="contents-label">{esc(data["nav"]["years"])}</p>
+  <ol class="year-grid">{''.join(years)}</ol>
+  <p class="contents-label">{esc(data["nav"]["rooms"])}</p>
+  <ul class="room-list">{''.join(rooms)}</ul>
+  <p class="contents-label">{esc(data["nav"]["pieces"])}</p>
+  <ul class="room-list">{pieces}</ul>
 </main>
 """
     (SITE / "collection.html").write_text(
@@ -188,7 +239,7 @@ def write_issue(data: dict, issue: dict) -> None:
 <main class="wrap">
 {lead}
 {seq}
-  <a class="to-collection" href="collection.html">{esc(data["nav"]["collection"])}</a>
+  {pager(data, issue, "")}
 </main>
 """
     (SITE / f"{issue['slug']}.html").write_text(
@@ -210,6 +261,7 @@ def write_piece(data: dict, piece: dict) -> None:
   {notes_html(piece.get("notes") or [])}
   {figure("../", piece["image"], piece["title"])}
   <p class="endnote"><a href="../contact.html">{esc(data["contactLine"])}</a></p>
+  {pager(data, issue, "../")}
 </main>
 """
     dest = SITE / "piece" / f"{piece['slug']}.html"
@@ -272,7 +324,6 @@ def write_404(data: dict) -> None:
 <main class="wrap">
   <p class="kicker">{esc(data["name"])}</p>
   <h1>{esc(data["notFound"])}</h1>
-  <a class="to-collection" href="collection.html">{esc(data["nav"]["collection"])}</a>
 </main>
 """
     (SITE / "404.html").write_text(
