@@ -694,8 +694,9 @@ button:focus-visible {
   line-height: 1.25;
 }
 
-.rooms .n-rest {
-  display: inline-block;
+.rooms .n-autographs::after {
+  content: "and pictures";
+  display: block;
   white-space: nowrap;
 }
 
