@@ -58,7 +58,7 @@ HOSTS = {
 }
 
 ROOM_LABELS = {
-    "autographs": "Autographs / pictures",
+    "autographs": "Autographs and pictures",
     "information-boards": "Information boards",
     "fifa": "FIFA official items",
     "sports-equipment": "Sports equipment",
