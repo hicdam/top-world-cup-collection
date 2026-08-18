@@ -694,6 +694,10 @@ button:focus-visible {
   line-height: 1.2;
 }
 
+.rooms .n-sub {
+  display: block;
+}
+
 .rooms .c {
   margin-top: 0.35rem;
   font-family: var(--ui);
