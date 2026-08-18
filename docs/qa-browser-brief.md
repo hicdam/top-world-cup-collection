@@ -102,7 +102,7 @@ Test at least: **1930** (many), **1938** (few), **1954** (mid), **2010** (single
 | FIFA official items | 83 |
 | Information boards | 34 |
 | Sports equipment | 30 |
-| Autographs / pictures | 6 |
+| Autographs and pictures | 6 |
 | Divers | 3 |
 
 Spot-check counts for **1938**, **1954**, **2010**, **FIFA** (FIFA may be sampled if too long: confirm grid is densely populated and scrolls to a large set, not a handful).
@@ -114,7 +114,7 @@ Spot-check counts for **1938**, **1954**, **2010**, **FIFA** (FIFA may be sample
 | # | Check | Expect |
 |---|--------|--------|
 | 4.1 | 1930 feature | Year/host lockup + all 17 Uruguay tiles |
-| 4.2 | Rooms strip | FIFA, Information boards, Sports equipment, Autographs / pictures, Divers — counts look sane |
+| 4.2 | Rooms strip | FIFA, Information boards, Sports equipment, Autographs and pictures, Divers — counts look sane |
 | 4.3 | Story | Supported milestones only; no invented biography |
 | 4.4 | Collection wall | Large grid of real photographs; tiles clickable |
 | 4.5 | Sale band | ~500 / only as a whole; links to Sale and Contact |
