@@ -330,8 +330,8 @@ def document(title: str, body: str, prefix: str, extra_body: str = "") -> str:
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="{FONTS}" rel="stylesheet">
-  <link rel="stylesheet" href="{prefix}css/exhibition.css?v=type17">
-  <script src="{prefix}js/exhibition.js?v=type17" defer></script>
+  <link rel="stylesheet" href="{prefix}css/exhibition.css?v=type18">
+  <script src="{prefix}js/exhibition.js?v=type18" defer></script>
 </head>
 <body>
 {body}
@@ -625,6 +625,15 @@ def write_chapter(page: dict) -> None:
     feature_cls = "feature"
     if year:
         feature_cls = f"feature t-{year}"
+    if page["folder"] == "autographs":
+        chapter_year_html = (
+            '<span class="n-line">Autographs</span>'
+            '<span class="n-line">and pictures</span>'
+        )
+        chapter_year_class = "chapter-year has-lines"
+    else:
+        chapter_year_html = esc(year_label or heading)
+        chapter_year_class = "chapter-year"
     prev, nxt = neighbours(page)
     prev_html = (
         f'<a href="{rel}{chapter_href(prev)}">{esc(heading_for(prev))}</a>'
@@ -643,7 +652,7 @@ def write_chapter(page: dict) -> None:
   <section class="{feature_cls}">
     <div class="feature-copy">
       <p class="chapter-kicker">{esc(heading)}</p>
-      <p class="chapter-year">{esc(year_label or heading)}</p>
+      <p class="{chapter_year_class}">{chapter_year_html}</p>
       {f'<p class="chapter-host">{esc(host)}</p>' if host else ""}
       {note}
     </div>
