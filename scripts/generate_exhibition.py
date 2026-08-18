@@ -330,8 +330,8 @@ def document(title: str, body: str, prefix: str, extra_body: str = "") -> str:
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="{FONTS}" rel="stylesheet">
-  <link rel="stylesheet" href="{prefix}css/exhibition.css?v=type16">
-  <script src="{prefix}js/exhibition.js?v=type16" defer></script>
+  <link rel="stylesheet" href="{prefix}css/exhibition.css?v=type17">
+  <script src="{prefix}js/exhibition.js?v=type17" defer></script>
 </head>
 <body>
 {body}
@@ -437,12 +437,19 @@ def write_home() -> None:
             continue
         count = len(page_assets(page["file"]))
         label = ROOM_LABELS[folder]
-        name_class = "n n-autographs" if folder == "autographs" else "n"
-        name_html = "Autographs" if folder == "autographs" else esc(label)
+        if folder == "autographs":
+            name_html = (
+                '<span class="n" data-rooms="v17">'
+                "<span>Autographs</span>"
+                '<span class="n-rest">and pictures</span>'
+                "</span>"
+            )
+        else:
+            name_html = f'<span class="n">{esc(label)}</span>'
         rooms.append(
             f'<a href="{esc(chapter_href(page))}">'
             f'<span class="k">Collection</span>'
-            f'<span class="{name_class}">{name_html}</span>'
+            f"{name_html}"
             f'<span class="c">{count} photographs</span></a>'
         )
     hero_assets = []

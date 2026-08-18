@@ -689,14 +689,20 @@ button:focus-visible {
 
 .rooms .n {
   margin-top: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   font-family: var(--ui);
-  font-size: 1.15rem;
-  line-height: 1.25;
+  font-size: 1.1rem;
+  line-height: 1.2;
 }
 
-.rooms .n-autographs::after {
-  content: "and pictures";
+.rooms .n > span {
   display: block;
+  white-space: nowrap;
+}
+
+.rooms .n-rest {
   white-space: nowrap;
 }
 
