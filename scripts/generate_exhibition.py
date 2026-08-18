@@ -330,8 +330,8 @@ def document(title: str, body: str, prefix: str, extra_body: str = "") -> str:
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="{FONTS}" rel="stylesheet">
-  <link rel="stylesheet" href="{prefix}css/exhibition.css?v=type14">
-  <script src="{prefix}js/exhibition.js?v=type14" defer></script>
+  <link rel="stylesheet" href="{prefix}css/exhibition.css?v=type15">
+  <script src="{prefix}js/exhibition.js?v=type15" defer></script>
 </head>
 <body>
 {body}
@@ -438,8 +438,8 @@ def write_home() -> None:
         count = len(page_assets(page["file"]))
         label = ROOM_LABELS[folder]
         label_html = (
-            '<span class="n-line">Autographs</span>'
-            '<span class="n-line">and&nbsp;pictures</span>'
+            'Autographs<br>'
+            '<span class="n-rest" style="white-space:nowrap">and\u00a0pictures</span>'
             if folder == "autographs"
             else esc(label)
         )

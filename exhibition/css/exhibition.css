@@ -689,17 +689,13 @@ button:focus-visible {
 
 .rooms .n {
   margin-top: 1.4rem;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.1rem;
   font-family: var(--ui);
-  font-size: 1.25rem;
-  line-height: 1.15;
+  font-size: 1.15rem;
+  line-height: 1.25;
 }
 
-.rooms .n-line {
-  display: block;
+.rooms .n-rest {
+  display: inline-block;
   white-space: nowrap;
 }
 
