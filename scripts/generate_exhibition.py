@@ -746,22 +746,14 @@ def write_contact() -> None:
     <p>{esc(COPY["contact_title"])}</p>
     <div class="contacts">
       <article>
-        <span>Mr.</span>
-        <h3>Thomas Paul Käppeli</h3>
-        <p>Grundbachstrasse 29</p>
-        <p>3665 Wattenwil</p>
-        <p>Phone</p>
-        <a href="tel:+41793409363">+41 (0)79 340 93 63</a>
-        <a href="mailto:tk@Top-World-Cup-Collection.ch">tk@Top-World-Cup-Collection.ch</a>
+        <h3>Bernhard Spahni</h3>
+        <a href="mailto:bspahni@me.com">bspahni@me.com</a>
+        <a href="tel:+41798458592">+41 79 8458592</a>
       </article>
       <article>
-        <span>Mr.</span>
-        <h3>Norbert Kaeser</h3>
-        <p>Kaisereggstrasse 10</p>
-        <p>3185 Schmitten</p>
-        <p>Phone</p>
-        <a href="tel:+41786413457">+41 (o)78 641 34 57</a>
-        <a href="mailto:nk@Top-World-Cup-Collection.ch">nk@Top-World-Cup-Collection.ch</a>
+        <h3>Jason Knight</h3>
+        <a href="mailto:Jason@cultureandcommerce.co.uk">Jason@cultureandcommerce.co.uk</a>
+        <a href="tel:+447940730856">+44 (0)7940 730 856</a>
       </article>
     </div>
     <p style="margin-top:2.2rem">More informations and pictures about the collection:</p>
