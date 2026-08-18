@@ -3,25 +3,80 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <title>Contact · Top World - Cup - Collection</title>
-  <meta name="description" content="Top World - Cup - Collection">
+  <meta name="description" content="Top World - Cup - Collection · 1930 – 2022 · including Olympic Games 1924 / 1928">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/exhibition.css">
-  <script src="js/exhibition.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/exhibition.css?v=type9">
+  <script src="js/exhibition.js?v=type9" defer></script>
 </head>
-<body class="">
-<div class="shell">
+<body>
+<div class="interior">
+<a class="skip" href="#main">Skip to collection</a>
 <header class="mast">
-  <a class="wordmark" href="index.html">Top World - Cup - Collection</a>
-  <nav class="nav"><a href="archive.html">The collection</a><a href="index.html#timeline">Timeline</a><a href="sale.html">Sale</a><a href="contact.html" aria-current="page">Contact</a></nav>
+  <a class="brand" href="index.html">
+    <span class="brand-mark" aria-hidden="true">TW</span>
+    <span class="brand-copy">
+      <b>Top World - Cup - Collection</b>
+      <small>1930 — 2022</small>
+    </span>
+  </a>
+  <nav class="nav" aria-label="Primary"><a href="archive.html">The collection</a><a href="index.html#timeline">Timeline</a><a href="index.html#story">Story</a><a href="sale.html">Sale</a><a href="contact.html" aria-current="page">Contact</a></nav>
+  <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
 </header>
-<article class="page">
-  <h1>Contact</h1>
-  <p>Collection Football World - Cup 1930 - 2022</p><p>Mr.</p><p>Thomas Paul Käppeli</p><p>Grundbachstrasse 29</p><p>3665 Wattenwil</p><p>Phone:</p><p>+41 (0)79 340 93 63</p><p>E-Mail:</p><p>tk@Top-World-Cup-Collection.ch</p><p>Norbert Kaeser</p><p>Kaisereggstrasse 10</p><p>3185 Schmitten</p><p>+41 (o)78 641 34 57</p><p>nk@Top-World-Cup-Collection.ch</p><p>More informations and pictures about the collection:</p><p>http://www.Top-World-Cup-Collection.ch</p><p>Visit also: Formula 1 - Collection</p>
-</article>
+<main id="main">
+  <div class="page-hero">
+    <p class="eyebrow">Top World - Cup - Collection</p>
+    <h1>Contact</h1>
+  </div>
+  <section class="prose">
+    <p>Collection Football World - Cup 1930 - 2022</p>
+    <div class="contacts">
+      <article>
+        <span>Mr.</span>
+        <h3>Thomas Paul Käppeli</h3>
+        <p>Grundbachstrasse 29</p>
+        <p>3665 Wattenwil</p>
+        <p>Phone</p>
+        <a href="tel:+41793409363">+41 (0)79 340 93 63</a>
+        <a href="mailto:tk@Top-World-Cup-Collection.ch">tk@Top-World-Cup-Collection.ch</a>
+      </article>
+      <article>
+        <span>Mr.</span>
+        <h3>Norbert Kaeser</h3>
+        <p>Kaisereggstrasse 10</p>
+        <p>3185 Schmitten</p>
+        <p>Phone</p>
+        <a href="tel:+41786413457">+41 (o)78 641 34 57</a>
+        <a href="mailto:nk@Top-World-Cup-Collection.ch">nk@Top-World-Cup-Collection.ch</a>
+      </article>
+    </div>
+    <p style="margin-top:2.2rem">More informations and pictures about the collection:</p>
+    <p>http://www.Top-World-Cup-Collection.ch</p>
+  </section>
+</main>
+<footer class="site-foot">
+  <a class="brand" href="index.html">
+    <span class="brand-mark" aria-hidden="true">TW</span>
+    <span class="brand-copy"><b>Top World - Cup - Collection</b><small>1930 — 2022</small></span>
+  </a>
+  <nav><a href="archive.html">The collection</a><a href="index.html#timeline">Timeline</a><a href="index.html#story">Story</a><a href="sale.html">Sale</a><a href="contact.html">Contact</a></nav>
+  <a class="end" href="https://www.top-world-cup-collection.ch/f1/">Visit also: Formula 1 - Collection</a>
+</footer>
 </div>
-<footer class="site-foot">Top World - Cup - Collection · 1930 – 2022</footer>
+<div class="viewer" id="viewer" hidden role="dialog" aria-modal="true" aria-label="Photograph">
+  <div class="viewer-bar">
+    <span id="viewer-meta"></span>
+    <button type="button" data-close>Close</button>
+  </div>
+  <img id="viewer-image" alt="">
+  <div class="viewer-foot">
+    <button type="button" data-prev>Previous</button>
+    <button type="button" data-next>Next</button>
+  </div>
+</div>
+
 </body>
 </html>

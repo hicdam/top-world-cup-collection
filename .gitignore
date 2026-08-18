@@ -4,3 +4,14 @@ node_modules/
 *.log
 
 source/documents/*.txt
+
+# Local Netlify folder
+.netlify
+
+# Regenerable image derivatives
+exhibition/derived/
+exhibition/thumbs/
+
+# Local agent / specimen noise
+.claude/
+exhibition/fonts.html
