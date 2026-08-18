@@ -690,9 +690,8 @@ button:focus-visible {
 .rooms .n {
   margin-top: 1.4rem;
   font-family: var(--ui);
-  font-size: clamp(0.95rem, 1.15vw, 1.2rem);
-  line-height: 1.15;
-  white-space: nowrap;
+  font-size: 1.25rem;
+  line-height: 1.2;
 }
 
 .rooms .c {

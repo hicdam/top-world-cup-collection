@@ -330,8 +330,8 @@ def document(title: str, body: str, prefix: str, extra_body: str = "") -> str:
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="{FONTS}" rel="stylesheet">
-  <link rel="stylesheet" href="{prefix}css/exhibition.css?v=type11">
-  <script src="{prefix}js/exhibition.js?v=type11" defer></script>
+  <link rel="stylesheet" href="{prefix}css/exhibition.css?v=type12">
+  <script src="{prefix}js/exhibition.js?v=type12" defer></script>
 </head>
 <body>
 {body}
@@ -436,10 +436,16 @@ def write_home() -> None:
         if not page:
             continue
         count = len(page_assets(page["file"]))
+        label = ROOM_LABELS[folder]
+        label_html = (
+            "Autographs<br>and pictures"
+            if folder == "autographs"
+            else esc(label)
+        )
         rooms.append(
             f'<a href="{esc(chapter_href(page))}">'
             f'<span class="k">Collection</span>'
-            f'<span class="n">{esc(ROOM_LABELS[folder])}</span>'
+            f'<span class="n">{label_html}</span>'
             f'<span class="c">{count} photographs</span></a>'
         )
     hero_assets = []
