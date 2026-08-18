@@ -593,7 +593,7 @@ button:focus-visible {
 }
 
 .chapter-host {
-  margin: -0.42em 0 1.8rem;
+  margin: 0.15em 0 1.8rem;
   font-family: var(--ui);
   font-size: clamp(1.5rem, 3vw, 2.6rem);
   font-weight: 500;
