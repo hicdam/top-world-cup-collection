@@ -387,7 +387,6 @@ def foot(prefix: str) -> str:
     <span class="brand-copy"><b>Top World - Cup - Collection</b><small>1930 — 2022</small></span>
   </a>
   <nav>{links}</nav>
-  <a class="end" href="https://www.top-world-cup-collection.ch/f1/">Visit also: Formula 1 - Collection</a>
 </footer>"""
 
 
