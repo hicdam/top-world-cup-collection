@@ -330,8 +330,8 @@ def document(title: str, body: str, prefix: str, extra_body: str = "") -> str:
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="{FONTS}" rel="stylesheet">
-  <link rel="stylesheet" href="{prefix}css/exhibition.css?v=type21">
-  <script src="{prefix}js/exhibition.js?v=type21" defer></script>
+  <link rel="stylesheet" href="{prefix}css/exhibition.css?v=type22">
+  <script src="{prefix}js/exhibition.js?v=type22" defer></script>
 </head>
 <body>
 {body}
@@ -629,6 +629,12 @@ def write_chapter(page: dict) -> None:
         chapter_year_html = (
             '<span class="n-line">Autographs</span>'
             '<span class="n-line">and pictures</span>'
+        )
+        chapter_year_class = "chapter-year has-lines"
+    elif page["folder"] == "fifa":
+        chapter_year_html = (
+            '<span class="n-line">FIFA</span>'
+            '<span class="n-line">official items</span>'
         )
         chapter_year_class = "chapter-year has-lines"
     else:
