@@ -599,9 +599,7 @@ button:focus-visible {
 }
 
 .chapter-year.has-lines {
-  font-size: clamp(2.6rem, 6.5vw, 5rem);
-  line-height: 1.05;
-  letter-spacing: -0.03em;
+  line-height: 0.95;
 }
 
 .chapter-host {
@@ -1422,7 +1420,6 @@ button:focus-visible {
     padding: 4.4rem 1.2rem 3.2rem;
   }
   .chapter-year { font-size: 6.4rem; }
-  .chapter-year.has-lines { font-size: clamp(2.2rem, 8vw, 3.4rem); }
   .feature-stage {
     height: 28rem;
     min-height: 0;
@@ -1451,7 +1448,6 @@ button:focus-visible {
 @media (max-width: 420px) {
   .hero h1 { font-size: 2.55rem; }
   .chapter-year { font-size: 5.2rem; }
-  .chapter-year.has-lines { font-size: clamp(2rem, 9vw, 2.8rem); }
   .hero-stage,
   .feature-stage { height: 24rem; }
   .piece-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
