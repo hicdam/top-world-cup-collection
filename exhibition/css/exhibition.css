@@ -581,7 +581,7 @@ button:focus-visible {
 }
 
 .chapter-year {
-  margin: 1.1rem 0 0.15rem;
+  margin: 1.1rem 0 0;
   font-family: var(--display);
   font-weight: 400;
   font-size: clamp(6.2rem, 14vw, 15.5rem);
@@ -590,6 +590,7 @@ button:focus-visible {
   position: relative;
   z-index: 1;
   color: #f4efe4;
+  padding-bottom: 0.18em;
 }
 
 .chapter-year .n-line {
@@ -605,14 +606,14 @@ button:focus-visible {
 }
 
 .chapter-host {
-  margin: 0.15em 0 1.8rem;
+  margin: 0 0 1.8rem;
   font-family: var(--ui);
   font-size: clamp(1.5rem, 3vw, 2.6rem);
   font-weight: 500;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   position: relative;
-  z-index: 2;
+  z-index: 5;
   color: var(--ink);
 }
 
