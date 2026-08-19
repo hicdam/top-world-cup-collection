@@ -330,8 +330,8 @@ def document(title: str, body: str, prefix: str, extra_body: str = "") -> str:
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="{FONTS}" rel="stylesheet">
-  <link rel="stylesheet" href="{prefix}css/exhibition.css?v=type19">
-  <script src="{prefix}js/exhibition.js?v=type19" defer></script>
+  <link rel="stylesheet" href="{prefix}css/exhibition.css?v=type20">
+  <script src="{prefix}js/exhibition.js?v=type20" defer></script>
 </head>
 <body>
 {body}

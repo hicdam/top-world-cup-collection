@@ -599,7 +599,6 @@ button:focus-visible {
 }
 
 .chapter-year.has-lines {
-  font-family: var(--ui);
   font-size: clamp(2.6rem, 6.5vw, 5rem);
   line-height: 1.05;
   letter-spacing: -0.03em;
